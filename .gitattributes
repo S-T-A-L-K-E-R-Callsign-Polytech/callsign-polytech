@@ -1,2 +1,6 @@
 * text=auto
 *.dds binary
+
+*.ltx    text eol=crlf
+*.xml    text eol=crlf
+*.script text eol=crlf
