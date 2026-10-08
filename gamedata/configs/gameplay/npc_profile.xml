@@ -1112,4 +1112,8 @@
 		<class>jup_b6_freedom_stalker_1</class>
    </character>
 
+	<character id="zat_polytech">
+		<class>zat_polytech</class>
+		<specific_character>zat_polytech</specific_character>
+	</character>
 </xml>

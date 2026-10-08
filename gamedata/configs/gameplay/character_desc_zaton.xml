@@ -2337,5 +2337,28 @@
 #include "gameplay\character_criticals_4.xml"
   </specific_character>
 
+	<specific_character id="zat_polytech" team_default="1">
+		<name>st_zat_polytech_name</name>
+		<bio>st_zat_polytech_bio</bio>
+		<icon>ui_inGame2_neutral_1</icon>
+		<visual>actors\stalker_neutral\stalker_neutral_1</visual>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<class>zat_polytech</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>40</rank>
+		<reputation>0</reputation>
+		<money min="500" max="500" infinitive="0" />
+		<supplies>
+			[spawn] \n
+			wpn_pm \n
+			ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+#include "gameplay\character_criticals_3.xml"
+		<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
 
 </xml>
