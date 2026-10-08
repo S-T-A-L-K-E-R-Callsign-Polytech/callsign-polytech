@@ -1,0 +1,7 @@
+function spawn_entities()
+    if db.actor:has_info("zat_polytech_spawned") then
+        return
+    end
+    alife():create("zat_polytech", vector():set(128.43, -7.34, 188.71), 1186463, 298)
+    db.actor:give_info_portion("zat_polytech_spawned")
+end

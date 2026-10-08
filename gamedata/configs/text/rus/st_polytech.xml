@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+    <string id="st_zat_polytech_name">
+        <text>Политех</text>
+    </string>
+    <string id="st_zat_polytech_bio">
+        <text>Бывший студент ФИВТа, сохранивший силу Поляны и благоразумие 8 общаги.</text>
+    </string>
+</string_table>
