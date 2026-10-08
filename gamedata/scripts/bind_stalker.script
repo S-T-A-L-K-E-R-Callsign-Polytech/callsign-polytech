@@ -43,6 +43,7 @@ function actor_binder:net_spawn(data)
 		return false
 	end
 	db.add_actor(self.object)
+	polytech.spawn_entities()
 	db.actor.deimos_intensity = self.deimos_intensity
 	self.deimos_intensity = nil
 	if self.st.disable_input_time == nil then

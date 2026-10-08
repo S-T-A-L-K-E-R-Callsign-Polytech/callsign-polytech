@@ -2340,13 +2340,13 @@
 	<specific_character id="zat_polytech" team_default="1">
 		<name>st_zat_polytech_name</name>
 		<bio>st_zat_polytech_bio</bio>
-		<icon>ui_inGame2_neutral_1</icon>
-		<visual>actors\stalker_neutral\stalker_neutral_1</visual>
+		<icon>ui_inGame2_Azot</icon>
+		<visual>actors\stalker_neutral\stalker_neutral_nauchniy_face_3</visual>
 		<snd_config>characters_voice\human_01\stalker\</snd_config>
 		<class>zat_polytech</class>
 		<community>stalker</community>
 		<terrain_sect>stalker_terrain</terrain_sect>
-		<rank>40</rank>
+		<rank>50</rank>
 		<reputation>0</reputation>
 		<money min="500" max="500" infinitive="0" />
 		<supplies>

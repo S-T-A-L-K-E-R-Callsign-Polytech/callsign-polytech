@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+    <string id="st_zat_polytech_name">
+        <text>Polytech</text>
+    </string>
+    <string id="st_zat_polytech_bio">
+        <text>A former FICT student who has kept the strength of Polyana and the prudence of Dorm 8.</text>
+    </string>
+</string_table>

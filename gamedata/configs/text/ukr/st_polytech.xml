@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+    <string id="st_zat_polytech_name">
+        <text>Політех</text>
+    </string>
+    <string id="st_zat_polytech_bio">
+        <text>Колишній студент ФІОТу, що зберіг силу Поляни та розважливість 8-ї общаги.</text>
+    </string>
+</string_table>
