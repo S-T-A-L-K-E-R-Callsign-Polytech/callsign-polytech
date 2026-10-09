@@ -1116,4 +1116,9 @@
 		<class>zat_polytech</class>
 		<specific_character>zat_polytech</specific_character>
 	</character>
+
+	<character id="zat_faraday">
+		<class>zat_faraday</class>
+		<specific_character>zat_faraday</specific_character>
+	</character>
 </xml>

@@ -1,7 +1,12 @@
-function spawn_entities()
-    if db.actor:has_info("zat_polytech_spawned") then
+local function spawn_once(info, section, x, y, z, lvid, gvid)
+    if db.actor:has_info(info) then
         return
     end
-    alife():create("zat_polytech", vector():set(128.43, -7.34, 188.71), 1186463, 298)
-    db.actor:give_info_portion("zat_polytech_spawned")
+    alife():create(section, vector():set(x, y, z), lvid, gvid)
+    db.actor:give_info_portion(info)
+end
+
+function spawn_entities()
+    spawn_once("zat_polytech_spawned", "zat_polytech", 128.43, -7.34, 188.71, 1186463, 298)
+    spawn_once("zat_faraday_spawned", "zat_faraday", 472.45, 37.12, 32.91, 1732117, 293)
 end

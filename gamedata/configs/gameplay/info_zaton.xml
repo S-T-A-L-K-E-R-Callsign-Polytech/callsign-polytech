@@ -539,5 +539,6 @@
 	<info_portion id="zat_b38_stalker_medic_setup"></info_portion>
 	<info_portion id="zat_b104_task_end"></info_portion>
 	<info_portion id="zat_polytech_spawned"></info_portion>
+	<info_portion id="zat_faraday_spawned"></info_portion>
 
 </game_information_portions>

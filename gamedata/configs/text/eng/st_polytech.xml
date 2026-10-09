@@ -6,4 +6,10 @@
     <string id="st_zat_polytech_bio">
         <text>A former FICT student who has kept the strength of Polyana and the prudence of Dorm 8.</text>
     </string>
+    <string id="st_zat_faraday_name">
+        <text>Faraday</text>
+    </string>
+    <string id="st_zat_faraday_bio">
+        <text>A former KPI Telecom engineer who swapped his server room for a shack at the Forestry. Plans to start a business on anonymous data storage.</text>
+    </string>
 </string_table>
