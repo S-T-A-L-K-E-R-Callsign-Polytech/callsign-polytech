@@ -2377,6 +2377,7 @@
 			[spawn] \n
 			wpn_mp5 \n
 			ammo_9x19_fmj = 2 \n
+			zat_rokovoy_router \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"

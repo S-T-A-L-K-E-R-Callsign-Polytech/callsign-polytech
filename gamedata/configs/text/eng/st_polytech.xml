@@ -12,4 +12,10 @@
     <string id="st_zat_faraday_bio">
         <text>A former KPI Telecom engineer who swapped his server room for a shack at the Forestry. Plans to start a business on anonymous data storage.</text>
     </string>
+    <string id="st_zat_rokovoy_router_name">
+        <text>Rokovoy's router</text>
+    </string>
+    <string id="st_zat_rokovoy_router_desc">
+        <text>A router from the FICT lab that Rokovoy brought back from China. Whatever is in its firmware, plenty of people in the Zone would like to get their hands on it.</text>
+    </string>
 </string_table>

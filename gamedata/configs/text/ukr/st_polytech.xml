@@ -12,4 +12,10 @@
     <string id="st_zat_faraday_bio">
         <text>Колишній інженер КПІ Телеком, який проміняв серверну на конуру в Лісництві. Планує створити бізнес на анонімному сховищі даних.</text>
     </string>
+    <string id="st_zat_rokovoy_router_name">
+        <text>Роутер Рокового</text>
+    </string>
+    <string id="st_zat_rokovoy_router_desc">
+        <text>Роутер з лабораторії ФІОТу, який Роковий привіз із Китаю. Що б не було в його прошивці, охочих його заполучити в Зоні вистачає.</text>
+    </string>
 </string_table>
