@@ -16,13 +16,13 @@
         <text>Rokovoy's router</text>
     </string>
     <string id="st_zat_rokovoy_router_desc">
-        <text>A router from the FICT lab that Rokovoy brought back from China. Whatever is in its firmware, plenty of people in the Zone would like to get their hands on it.</text>
+        <text>A router from the FICT lab that Rokovoy brought back from China. Whatever is in its firmware, there are plenty of people in the Zone who want to get their hands on a router like this.</text>
     </string>
     <string id="st_zat_polytech_router_find_name">
         <text>Find Faraday</text>
     </string>
     <string id="st_zat_polytech_router_find_text">
-        <text>Polytech asked you to find Faraday, who is holding on to Rokovoy's router. He is hiding in a shack at the Forestry.</text>
+        <text>Polytech asked you to find Faraday, who is holding on to Rokovoy's router. He is hiding in a hut at the Forestry.</text>
     </string>
     <string id="st_zat_polytech_router_get_name">
         <text>Get the router from Faraday</text>
@@ -47,5 +47,68 @@
     </string>
     <string id="st_zat_polytech_router_bring_text">
         <text>You have the router. Bring it to Polytech at the Skadovsk.</text>
+    </string>
+    <string id="st_zat_polytech_router_start_0">
+        <text>Got any work for me?</text>
+    </string>
+    <string id="st_zat_polytech_router_start_1">
+        <text>There's one thing. I want to get hold of a router.</text>
+    </string>
+    <string id="st_zat_polytech_router_start_2">
+        <text>What router?</text>
+    </string>
+    <string id="st_zat_polytech_router_start_3">
+        <text>When I studied at FICT, I took the course on networks and Linux. Rokovoy taught it back then, and during labs he would sometimes take out a modified router he had brought back from his internship in China. Strange casing, and firmware nobody ever really figured out. They say the most hardcore Chinese programmers wrote it, and the Chinese firewall runs on hardware like that.</text>
+    </string>
+    <string id="st_zat_polytech_router_start_10">
+        <text>How did it end up in the Zone?</text>
+    </string>
+    <string id="st_zat_polytech_router_start_11">
+        <text>When the department was getting rid of old equipment, the exhibit went off with the rest of the decommissioned hardware to the dealers who trade in that stuff. From there it travelled down the chain into the Zone. A rumour spread fast: there's a device that can be neither hacked nor tracked. After a rumour like that, the router's quiet life was over. Suddenly everyone with something to hide wanted it. Duty and Freedom first of all: each wants its own comms to stay private, and neither wants the other to get a thing like that. As soon as the router surfaced on the local markets, a real hunt began. It changed hands several times, but nobody managed to keep it for long. So bear in mind, you won't be the first one to go after it.</text>
+    </string>
+    <string id="st_zat_polytech_router_start_14">
+        <text>And why do you need it?</text>
+    </string>
+    <string id="st_zat_polytech_router_start_15">
+        <text>Half nostalgia, half principle. It's a piece of our department and a piece of my student years. I don't want it to become a trophy in Duty and Freedom's squabbles. And honestly, I'm curious what's in that firmware myself. What if the legends are true?</text>
+    </string>
+    <string id="st_zat_polytech_router_start_16">
+        <text>And who has it now?</text>
+    </string>
+    <string id="st_zat_polytech_router_start_17">
+        <text>Last I heard, it settled with a loner called Faraday. Not much is known about him. They say he used to work at KPI Telecom, and now he's building his own closed network in the Zone, a darknet of sorts. He wants to keep the secret data of the factions and ordinary stalkers alike: a neutral, unreachable keeper of other people's secrets. Rumour has it even the FAKS archive sits on his servers. He's holed up in a hut at the Forestry. He doesn't like strangers and takes everyone for either a faction agent or a bounty hunter.</text>
+    </string>
+    <string id="st_zat_polytech_router_start_18">
+        <text>What's the FAKS archive?</text>
+    </string>
+    <string id="st_zat_polytech_router_start_19">
+        <text>Ha, that's a legend of its own. The FAKS archive is one of the greatest mysteries of KPI. Nobody really knows what's in it: the senior students of those years just smile and change the subject. But I'm sending you for the router, not the archive.</text>
+    </string>
+    <string id="st_zat_polytech_router_start_20">
+        <text>Fine, I'll find your Faraday.</text>
+    </string>
+    <string id="st_zat_polytech_router_start_21">
+        <text>Deal, then. Bring me the router and I'll pay. And I wasn't joking about Duty and Freedom: watch your back.</text>
+    </string>
+    <string id="st_zat_polytech_router_start_22">
+        <text>I've got no time for this right now.</text>
+    </string>
+    <string id="st_zat_polytech_router_start_23">
+        <text>I understand.</text>
+    </string>
+    <string id="st_zat_polytech_router_return_0">
+        <text>I've brought Rokovoy's router.</text>
+    </string>
+    <string id="st_zat_polytech_router_return_1">
+        <text>Faraday gave it up himself? They must have really pressed him if he decided to quit. Pity, the idea of a neutral vault was a beautiful one. But there's no such thing as neutral in the Zone: sooner or later they come for you anyway.</text>
+    </string>
+    <string id="st_zat_polytech_router_return_2">
+        <text>So Faraday is gone... Not for me to judge you, the Zone is the Zone. But I'm sorry for the keeper of secrets: now all of them are gone with him.</text>
+    </string>
+    <string id="st_zat_polytech_router_return_5">
+        <text>And the FAKS archive?</text>
+    </string>
+    <string id="st_zat_polytech_router_return_6">
+        <text>The FAKS archive can stay a secret. Some secrets should stay unrevealed. Hand over the router, and here's what I promised. Thank you, stalker.</text>
     </string>
 </string_table>

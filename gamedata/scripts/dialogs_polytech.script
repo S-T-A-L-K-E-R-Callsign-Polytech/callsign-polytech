@@ -1,0 +1,25 @@
+local function faraday_is_alive()
+    local id = get_story_object_id("zat_faraday")
+    local se = id and alife():object(id)
+    return se ~= nil and se:alive()
+end
+
+function router_give_task(first_speaker, second_speaker)
+    task_manager.get_task_manager():give_task("zat_polytech_router")
+end
+
+function actor_has_router(first_speaker, second_speaker)
+    return db.actor:object("zat_rokovoy_router") ~= nil
+end
+
+function faraday_alive(first_speaker, second_speaker)
+    return faraday_is_alive()
+end
+
+function faraday_dead(first_speaker, second_speaker)
+    return not faraday_is_alive()
+end
+
+function router_transfer(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "zat_rokovoy_router")
+end

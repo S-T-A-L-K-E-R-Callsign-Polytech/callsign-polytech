@@ -385,7 +385,6 @@ condlist_0 = {+zat_b20_cross_teleport} complete
 ; actor has the router -> bring it to Polytech; defence started -> defend Faraday;
 ; Faraday dead -> search his body; met Faraday -> get the router from him; otherwise -> find Faraday.
 ; No fail: Faraday's body keeps the router (keep_items) and is never released (story_id).
-; Reward is set in the Polytech dialogs task.
 [zat_polytech_router]
 icon = ui_inGame2_Radiotechnika
 prior = 1
@@ -395,3 +394,4 @@ descr = {=actor_has_item(zat_rokovoy_router)} st_zat_polytech_router_bring_text,
 target = {=actor_has_item(zat_rokovoy_router)} zat_polytech, zat_faraday
 on_init = %+zat_polytech_router_task_given%
 condlist_0 = {+zat_polytech_router_done} complete
+reward_money = 3000

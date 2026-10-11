@@ -541,6 +541,7 @@
 	<info_portion id="zat_polytech_spawned"></info_portion>
 	<info_portion id="zat_faraday_spawned"></info_portion>
 	<info_portion id="zat_polytech_router_task_given"></info_portion>
+	<info_portion id="zat_polytech_router_heard_faraday"></info_portion>
 	<info_portion id="zat_polytech_router_faraday_met"></info_portion>
 	<info_portion id="zat_polytech_router_defend"></info_portion>
 	<info_portion id="zat_polytech_router_defended"></info_portion>
