@@ -18,4 +18,34 @@
     <string id="st_zat_rokovoy_router_desc">
         <text>A router from the FICT lab that Rokovoy brought back from China. Whatever is in its firmware, plenty of people in the Zone would like to get their hands on it.</text>
     </string>
+    <string id="st_zat_polytech_router_find_name">
+        <text>Find Faraday</text>
+    </string>
+    <string id="st_zat_polytech_router_find_text">
+        <text>Polytech asked you to find Faraday, who is holding on to Rokovoy's router. He is hiding in a shack at the Forestry.</text>
+    </string>
+    <string id="st_zat_polytech_router_get_name">
+        <text>Get the router from Faraday</text>
+    </string>
+    <string id="st_zat_polytech_router_get_text">
+        <text>Faraday has the router. Talk to him and get it.</text>
+    </string>
+    <string id="st_zat_polytech_router_body_name">
+        <text>Search Faraday's body</text>
+    </string>
+    <string id="st_zat_polytech_router_body_text">
+        <text>Faraday is dead. The router should still be on his body.</text>
+    </string>
+    <string id="st_zat_polytech_router_defend_name">
+        <text>Defend Faraday</text>
+    </string>
+    <string id="st_zat_polytech_router_defend_text">
+        <text>Bandits have come for the router. Help Faraday fight them off.</text>
+    </string>
+    <string id="st_zat_polytech_router_bring_name">
+        <text>Return the router to Polytech</text>
+    </string>
+    <string id="st_zat_polytech_router_bring_text">
+        <text>You have the router. Bring it to Polytech at the Skadovsk.</text>
+    </string>
 </string_table>
