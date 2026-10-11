@@ -540,5 +540,10 @@
 	<info_portion id="zat_b104_task_end"></info_portion>
 	<info_portion id="zat_polytech_spawned"></info_portion>
 	<info_portion id="zat_faraday_spawned"></info_portion>
+	<info_portion id="zat_polytech_router_task_given"></info_portion>
+	<info_portion id="zat_polytech_router_faraday_met"></info_portion>
+	<info_portion id="zat_polytech_router_defend"></info_portion>
+	<info_portion id="zat_polytech_router_defended"></info_portion>
+	<info_portion id="zat_polytech_router_done"></info_portion>
 
 </game_information_portions>

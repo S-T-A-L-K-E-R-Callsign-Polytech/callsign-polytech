@@ -18,4 +18,34 @@
     <string id="st_zat_rokovoy_router_desc">
         <text>Роутер из лаборатории ФИВТа, который Роковой привёз из Китая. Что бы ни было в его прошивке, желающих заполучить такой маршрутизатор в Зоне хватает.</text>
     </string>
+    <string id="st_zat_polytech_router_find_name">
+        <text>Найти Фарадея</text>
+    </string>
+    <string id="st_zat_polytech_router_find_text">
+        <text>Политех попросил найти Фарадея, у которого находится роутер Рокового. Тот прячется в будке на Лесничестве.</text>
+    </string>
+    <string id="st_zat_polytech_router_get_name">
+        <text>Забрать роутер у Фарадея</text>
+    </string>
+    <string id="st_zat_polytech_router_get_text">
+        <text>Роутер у Фарадея. Поговорите с ним и заберите его.</text>
+    </string>
+    <string id="st_zat_polytech_router_body_name">
+        <text>Обыскать тело Фарадея</text>
+    </string>
+    <string id="st_zat_polytech_router_body_text">
+        <text>Фарадей мёртв. Роутер должен быть при нём.</text>
+    </string>
+    <string id="st_zat_polytech_router_defend_name">
+        <text>Защитить Фарадея</text>
+    </string>
+    <string id="st_zat_polytech_router_defend_text">
+        <text>За роутером пришли бандиты. Помогите Фарадею отбиться.</text>
+    </string>
+    <string id="st_zat_polytech_router_bring_name">
+        <text>Вернуть роутер Политеху</text>
+    </string>
+    <string id="st_zat_polytech_router_bring_text">
+        <text>Роутер у вас. Отнесите его Политеху на Скадовск.</text>
+    </string>
 </string_table>
