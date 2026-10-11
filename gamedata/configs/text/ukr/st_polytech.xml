@@ -6,4 +6,10 @@
     <string id="st_zat_polytech_bio">
         <text>Колишній студент ФІОТу, що зберіг силу Поляни та розважливість 8-ї общаги.</text>
     </string>
+    <string id="st_zat_faraday_name">
+        <text>Фарадей</text>
+    </string>
+    <string id="st_zat_faraday_bio">
+        <text>Колишній інженер КПІ Телеком, який проміняв серверну на конуру в Лісництві. Планує створити бізнес на анонімному сховищі даних.</text>
+    </string>
 </string_table>

@@ -6,4 +6,10 @@
     <string id="st_zat_polytech_bio">
         <text>Бывший студент ФИВТа, сохранивший силу Поляны и благоразумие 8 общаги.</text>
     </string>
+    <string id="st_zat_faraday_name">
+        <text>Фарадей</text>
+    </string>
+    <string id="st_zat_faraday_bio">
+        <text>Бывший инженер КПИ Телеком, сменивший серверную на конуру в Лесничестве. Планирует создать бизнес на анонимном хранилище данных.</text>
+    </string>
 </string_table>
