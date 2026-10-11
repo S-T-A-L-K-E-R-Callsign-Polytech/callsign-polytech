@@ -36,11 +36,11 @@
     <string id="st_zat_polytech_router_body_text">
         <text>Faraday is dead. The router should still be on his body.</text>
     </string>
-    <string id="st_zat_polytech_router_defend_name">
-        <text>Defend Faraday</text>
+    <string id="st_zat_polytech_router_escort_name">
+        <text>Escort Faraday to the Skadovsk</text>
     </string>
-    <string id="st_zat_polytech_router_defend_text">
-        <text>Bandits have come for the router. Help Faraday fight them off.</text>
+    <string id="st_zat_polytech_router_escort_text">
+        <text>Faraday will give you the router if you get him to the Skadovsk. Bandits may attack on the way.</text>
     </string>
     <string id="st_zat_polytech_router_bring_name">
         <text>Return the router to Polytech</text>
@@ -110,5 +110,44 @@
     </string>
     <string id="st_zat_polytech_router_return_6">
         <text>The FAKS archive can stay a secret. Some secrets should stay unrevealed. Hand over the router, and here's what I promised. Thank you, stalker.</text>
+    </string>
+    <string id="st_zat_faraday_router_meet_0">
+        <text>Stop right there! One more step and I shoot. Who are you? What do you want?</text>
+    </string>
+    <string id="st_zat_faraday_router_meet_2">
+        <text>Polytech sent me. For Rokovoy's router.</text>
+    </string>
+    <string id="st_zat_faraday_router_meet_3">
+        <text>Rokovoy's? I sat his networks exam too, passed on the third try... Alright, I believe you. Listen, since you're one of ours - I've got a deal for you. Bandits have been leaning on me. They want the router: someone told them Duty and Freedom would pay good money for it. They gave me time to think, they'll be back soon. I can't hold out here alone. Get me to the Skadovsk and the router's yours.</text>
+    </string>
+    <string id="st_zat_faraday_router_meet_4">
+        <text>Deal. Let's go.</text>
+    </string>
+    <string id="st_zat_faraday_router_meet_5">
+        <text>Quick, then, before they're back. You go first, I'll follow.</text>
+    </string>
+    <string id="st_zat_faraday_router_meet_6">
+        <text>Easier to just take the router off you right now.</text>
+    </string>
+    <string id="st_zat_faraday_router_meet_7">
+        <text>Right, another one. Go on then.</text>
+    </string>
+    <string id="st_zat_faraday_router_faks_0">
+        <text>They say you've got the FAKS archive.</text>
+    </string>
+    <string id="st_zat_faraday_router_faks_1">
+        <text>People say all sorts of things. Even if I do, it's none of your business.</text>
+    </string>
+    <string id="st_zat_faraday_router_give_0">
+        <text>That's it, we made it.</text>
+    </string>
+    <string id="st_zat_faraday_router_give_1">
+        <text>We did. They won't get me here. Won't last, though: if not these, others will come. As long as I've got the router, that's how it'll be. Forget it. I'm shutting down.</text>
+    </string>
+    <string id="st_zat_faraday_router_give_2">
+        <text>So, about the router?</text>
+    </string>
+    <string id="st_zat_faraday_router_give_3">
+        <text>A deal's a deal. Take it, bring it to your Polytech. And... thanks.</text>
     </string>
 </string_table>
