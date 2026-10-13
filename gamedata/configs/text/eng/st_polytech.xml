@@ -150,4 +150,10 @@
     <string id="st_zat_faraday_router_give_3">
         <text>A deal's a deal. Take it, bring it to your Polytech. And... thanks.</text>
     </string>
+    <string id="st_zat_max_name">
+        <text>Max</text>
+    </string>
+    <string id="st_zat_max_bio">
+        <text>A FICE student writing a diploma on electrical anomaly patterns. Came to the Zone for fieldwork. Lost his equipment in the Iron Forest and has been stuck on the Shevchenko ever since.</text>
+    </string>
 </string_table>

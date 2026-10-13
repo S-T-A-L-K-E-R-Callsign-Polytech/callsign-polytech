@@ -1,0 +1,30 @@
+[logic]
+active = remark@base
+
+[smart_terrains]
+none = true
+
+[remark@base]
+anim                             = sit_ass
+target                           = nil
+meet                             = meet
+invulnerable                     = true
+combat_ignore_cond               = true
+combat_ignore_keep_when_attacked = true
+gather_items_enabled             = false
+help_wounded_enabled             = false
+corpse_detection_enabled         = false
+
+[meet]
+close_distance  = 2
+close_anim      = wait
+close_snd_hello = nil
+close_snd_bye   = nil
+close_victim    = actor
+far_distance    = 4
+far_anim        = sit_ass
+far_victim      = nil
+use             = {=actor_enemy} false, true
+allow_break     = false
+trade_enable    = false
+meet_on_talking = false
