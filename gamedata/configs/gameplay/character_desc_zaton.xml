@@ -2415,4 +2415,31 @@
 		<actor_dialog>actor_break_dialog</actor_dialog>
 	</specific_character>
 
+	<specific_character id="zat_max" team_default="1">
+		<name>st_zat_max_name</name>
+		<bio>st_zat_max_bio</bio>
+		<icon>ui_inGame2_Spec_1</icon>
+		<visual>actors\stalker_neutral\stalker_student</visual>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<class>zat_max</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>20</rank>
+		<reputation>0</reputation>
+		<money min="200" max="400" infinitive="0" />
+		<supplies>
+			[spawn] 
+
+			wpn_pm 
+
+			ammo_9x18_fmj = 1 
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+		</supplies>
+#include "gameplay\character_criticals_3.xml"
+		<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+
 </xml>
