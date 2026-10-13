@@ -7226,8 +7226,6 @@
             </phrase>
         </phrase_list>
     </dialog>
-    <!-- Callsign Polytech: Rokovoy's Lost Router -->
-    <!-- start: questions 10, 14, 16, 18 can be asked in any order; 18 (FAKS) and 20 (accept) open after 16 (Faraday) -->
     <dialog id="zat_polytech_router_start">
         <dont_has_info>zat_polytech_router_task_given</dont_has_info>
         <phrase_list>
@@ -7324,7 +7322,6 @@
             </phrase>
         </phrase_list>
     </dialog>
-    <!-- return: router is handed over and the task is completed only on the last phrase -->
     <dialog id="zat_polytech_router_return">
         <has_info>zat_polytech_router_task_given</has_info>
         <dont_has_info>zat_polytech_router_done</dont_has_info>
@@ -7353,6 +7350,79 @@
                 <text>st_zat_polytech_router_return_6</text>
                 <action>dialogs_polytech.router_transfer</action>
                 <give_info>zat_polytech_router_done</give_info>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="zat_faraday_router_meet">
+        <dont_has_info>zat_polytech_router_faraday_met</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>st_zat_faraday_router_meet_0</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="2">
+                <text>st_zat_faraday_router_meet_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+                <text>st_zat_faraday_router_meet_3</text>
+                <next>4</next>
+                <next>6</next>
+            </phrase>
+            <phrase id="4">
+                <text>st_zat_faraday_router_meet_4</text>
+                <next>5</next>
+            </phrase>
+            <phrase id="5">
+                <text>st_zat_faraday_router_meet_5</text>
+                <give_info>zat_polytech_router_escort</give_info>
+                <give_info>zat_polytech_router_faraday_met</give_info>
+            </phrase>
+            <phrase id="6">
+                <text>st_zat_faraday_router_meet_6</text>
+                <next>7</next>
+            </phrase>
+            <phrase id="7">
+                <text>st_zat_faraday_router_meet_7</text>
+                <give_info>zat_polytech_router_force</give_info>
+                <give_info>zat_polytech_router_faraday_met</give_info>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="zat_faraday_router_faks">
+        <has_info>zat_polytech_router_task_given</has_info>
+        <dont_has_info>zat_polytech_router_force</dont_has_info>
+        <has_info>zat_polytech_router_faraday_met</has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>st_zat_faraday_router_faks_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>st_zat_faraday_router_faks_1</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="zat_faraday_router_give">
+        <has_info>zat_polytech_router_escorted</has_info>
+        <dont_has_info>zat_polytech_router_faraday_gave</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>st_zat_faraday_router_give_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>st_zat_faraday_router_give_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="2">
+                <text>st_zat_faraday_router_give_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+                <text>st_zat_faraday_router_give_3</text>
+                <action>dialogs_polytech.router_from_faraday</action>
+                <give_info>zat_polytech_router_faraday_gave</give_info>
             </phrase>
         </phrase_list>
     </dialog>

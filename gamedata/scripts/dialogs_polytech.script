@@ -23,3 +23,7 @@ end
 function router_transfer(first_speaker, second_speaker)
     dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "zat_rokovoy_router")
 end
+
+function router_from_faraday(first_speaker, second_speaker)
+    dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "zat_rokovoy_router")
+end

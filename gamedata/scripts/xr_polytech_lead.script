@@ -1,0 +1,90 @@
+local WAIT_DISTANCE   = 15
+local GO_DISTANCE     = 8
+local ARRIVE_DISTANCE = 3
+
+class "evaluator_need_lead" (property_evaluator)
+function evaluator_need_lead:__init(storage, name) super(nil, name)
+    self.st = storage
+end
+function evaluator_need_lead:evaluate()
+    return xr_logic.is_active(self.object, self.st)
+end
+
+class "action_lead" (action_base)
+function action_lead:__init(npc_name, action_name, storage) super(nil, action_name)
+    self.st = storage
+end
+function action_lead:initialize()
+    action_base.initialize(self)
+    self.object:set_desired_position()
+    self.object:set_desired_direction()
+    local dest = alife():object(get_story_object_id(self.st.dest))
+    self.dest_vertex = dest.m_level_vertex_id
+    if not self.object:accessible(self.dest_vertex) then
+        self.dest_vertex = self.object:accessible_nearest(dest.position, vector())
+    end
+    self.st.signals = {}
+    self.waiting = false
+    self.state = nil
+end
+function action_lead:set_state(state, look_at_actor)
+    if state ~= self.state then
+        local target = look_at_actor and {look_object = db.actor} or nil
+        state_mgr.set_state(self.object, state, nil, nil, target)
+        self.state = state
+    end
+end
+function action_lead:execute()
+    action_base.execute(self)
+    local npc = self.object
+    local to_actor = npc:position():distance_to(db.actor:position())
+    if self.waiting then
+        self.waiting = to_actor > GO_DISTANCE
+    else
+        self.waiting = to_actor > WAIT_DISTANCE
+    end
+    local arrived = npc:position():distance_to(level.vertex_position(self.dest_vertex)) < ARRIVE_DISTANCE
+
+    if arrived then
+        self.st.signals["arrived"] = true
+    end
+    if self.waiting or arrived then
+        self:set_state("guard_na", true)
+        return
+    end
+    npc:set_path_type(game_object.level_path)
+    npc:set_dest_level_vertex_id(self.dest_vertex)
+    self:set_state("rush", false)
+end
+function action_lead:finalize()
+    action_base.finalize(self)
+end
+
+local EVALUATOR_ID = xr_evaluators_id.zmey_companion_base + 30
+local ACTION_ID    = xr_actions_id.zmey_companion_base + 30
+
+function add_to_binder(npc, ini, scheme, section, storage)
+    local manager = npc:motivation_action_manager()
+    local state_mgr_logic_active = xr_evaluators_id.state_mgr + 4
+
+    manager:add_evaluator(EVALUATOR_ID, this.evaluator_need_lead(storage, "polytech_lead_need_lead"))
+
+    local action = this.action_lead(npc, "polytech_lead_action", storage)
+    action:add_precondition(world_property(stalker_ids.property_alive, true))
+    action:add_precondition(world_property(stalker_ids.property_enemy, false))
+    action:add_precondition(world_property(EVALUATOR_ID, true))
+    xr_motivator.addCommonPrecondition(action)
+    action:add_effect(world_property(EVALUATOR_ID, false))
+    action:add_effect(world_property(state_mgr_logic_active, false))
+    manager:add_action(ACTION_ID, action)
+
+    xr_logic.subscribe_action_for_events(npc, storage, action)
+
+    manager:action(xr_actions_id.alife):add_precondition(world_property(EVALUATOR_ID, false))
+end
+
+function set_scheme(npc, ini, scheme, section)
+    local st = xr_logic.assign_storage_and_bind(npc, ini, scheme, section)
+    st.logic = xr_logic.cfg_get_switch_conditions(ini, section, npc)
+    st.dest  = utils.cfg_get_string(ini, section, "dest", npc, true, "")
+end

@@ -36,11 +36,11 @@
     <string id="st_zat_polytech_router_body_text">
         <text>Фарадей мертвий. Роутер має бути при ньому.</text>
     </string>
-    <string id="st_zat_polytech_router_defend_name">
-        <text>Захистити Фарадея</text>
+    <string id="st_zat_polytech_router_escort_name">
+        <text>Провести Фарадея на Скадовськ</text>
     </string>
-    <string id="st_zat_polytech_router_defend_text">
-        <text>По роутер прийшли бандити. Допоможіть Фарадею відбитися.</text>
+    <string id="st_zat_polytech_router_escort_text">
+        <text>Фарадей віддасть роутер, якщо ви доведете його до Скадовська. Дорогою можуть напасти бандити.</text>
     </string>
     <string id="st_zat_polytech_router_bring_name">
         <text>Повернути роутер Політеху</text>
@@ -110,5 +110,44 @@
     </string>
     <string id="st_zat_polytech_router_return_6">
         <text>А архів ФАКС хай залишається таємницею. Деякі секрети мають залишатися нерозкритими. Давай роутер, а ось, як домовлялися. Дякую тобі, сталкере.</text>
+    </string>
+    <string id="st_zat_faraday_router_meet_0">
+        <text>Стояти! Ще крок - і стріляю. Хто такий? Чого треба?</text>
+    </string>
+    <string id="st_zat_faraday_router_meet_2">
+        <text>Мене Політех прислав. По роутер Рокового.</text>
+    </string>
+    <string id="st_zat_faraday_router_meet_3">
+        <text>Рокового? Я в нього теж мережі здавав, з третього разу... Гаразд, вірю. Слухай, раз ти від своїх - є справа. Мене бандити кошмарять. Хочуть роутер: їм хтось наспівав, що Обов'язок зі Свободою за нього добрі гроші дадуть. Дали час подумати, скоро повернуться. Сам я тут не відсиджуся. Доведи мене до Скадовська - роутер твій.</text>
+    </string>
+    <string id="st_zat_faraday_router_meet_4">
+        <text>Домовились. Ходімо.</text>
+    </string>
+    <string id="st_zat_faraday_router_meet_5">
+        <text>Тільки швидко, поки вони не повернулися. Іди першим, я за тобою.</text>
+    </string>
+    <string id="st_zat_faraday_router_meet_6">
+        <text>Простіше забрати роутер у тебе просто зараз.</text>
+    </string>
+    <string id="st_zat_faraday_router_meet_7">
+        <text>Ага, ще один. Ну давай.</text>
+    </string>
+    <string id="st_zat_faraday_router_faks_0">
+        <text>Кажуть, у тебе архів ФАКС лежить.</text>
+    </string>
+    <string id="st_zat_faraday_router_faks_1">
+        <text>Мало що кажуть. Навіть якщо й лежить - не твоя справа.</text>
+    </string>
+    <string id="st_zat_faraday_router_give_0">
+        <text>Ну все, дійшли.</text>
+    </string>
+    <string id="st_zat_faraday_router_give_1">
+        <text>Дійшли. Тут вони мене не дістануть. Тільки це ненадовго: не ці прийдуть, то інші. Поки роутер у мене, так і буде. Та ну його. Згортаюся.</text>
+    </string>
+    <string id="st_zat_faraday_router_give_2">
+        <text>То що там із роутером?</text>
+    </string>
+    <string id="st_zat_faraday_router_give_3">
+        <text>Домовленість є домовленість. Забирай, віднеси своєму Політеху. І... дякую.</text>
     </string>
 </string_table>
