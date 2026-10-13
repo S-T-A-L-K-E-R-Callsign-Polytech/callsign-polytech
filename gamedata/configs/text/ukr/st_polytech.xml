@@ -150,4 +150,10 @@
     <string id="st_zat_faraday_router_give_3">
         <text>Домовленість є домовленість. Забирай, віднеси своєму Політеху. І... дякую.</text>
     </string>
+    <string id="st_zat_max_name">
+        <text>Макс</text>
+    </string>
+    <string id="st_zat_max_bio">
+        <text>Студент ФІОТ, пише диплом про патерни електричних аномалій. Приїхав у Зону за польовими даними. Втратив обладнання в Залізному лісі та застряг на «Шевченку».</text>
+    </string>
 </string_table>

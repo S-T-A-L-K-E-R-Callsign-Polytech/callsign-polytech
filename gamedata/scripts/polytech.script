@@ -75,4 +75,5 @@ function spawn_entities()
     register_logic_functions()
     spawn_once("zat_polytech_spawned", "zat_polytech", 128.43, -7.34, 188.71, 1186463, 298)
     spawn_once("zat_faraday_spawned_v2", "zat_faraday", 472.45, 37.12, 32.91, 1732117, 293)
+    spawn_once("zat_max_spawned", "zat_max", -0.539003, -0.506748, 33.662804, 942595, 19)
 end

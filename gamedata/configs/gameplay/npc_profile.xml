@@ -1126,4 +1126,9 @@
 		<class>zat_faraday_free</class>
 		<specific_character>zat_faraday_free</specific_character>
 	</character>
+
+	<character id="zat_max">
+		<class>zat_max</class>
+		<specific_character>zat_max</specific_character>
+	</character>
 </xml>
