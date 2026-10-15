@@ -140,6 +140,7 @@ function actor_binder:on_actor_hit(obj, amount, direction, who, bone_id)
 	local gvid = db.actor:game_vertex_id()
 	alife():release(alife():object(item:id()), true)
 	alife():create("burnt_fpga_board", pos, lvid, gvid, db.actor:id())
+	db.actor:give_info_portion("zat_polytech_fpga_board_burnt")
 	self.fpga_snd = sound_object(FPGA_SND_PATH)
 	self.fpga_snd:play(db.actor, 0, sound_object.s2d)
 	xr_sound.set_sound_play(db.actor:id(), "pda_tips")
@@ -166,6 +167,12 @@ end
 ----------------------------------------------------------------------------------------------------------------------
 function actor_binder:on_item_take (obj)
 	printf("on_item_take [%s]", obj:name())
+	local item_section = obj:section()
+	if (item_section == "fice_fpga_board" or item_section == "burnt_fpga_board")
+		and db.actor:has_info("zat_polytech_fpga_max_met")
+		and not db.actor:has_info("zat_polytech_fpga_board_found") then
+		db.actor:give_info_portion("zat_polytech_fpga_board_found")
+	end
 	if isArtefact(obj) then
 		local anomal_zone = bind_anomaly_zone.parent_zones_by_artefact_id[obj:id()]
 		if anomal_zone ~= nil then
