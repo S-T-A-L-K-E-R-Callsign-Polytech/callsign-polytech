@@ -1,0 +1,6 @@
+<w>
+    <file name="ui\ui_polytech_icons">
+        <texture id="ui_polytech_fpga_task"   x="0" y="0"  width="83" height="47" />
+        <texture id="ui_polytech_fpga_burnt"  x="0" y="48" width="83" height="47" />
+    </file>
+</w>

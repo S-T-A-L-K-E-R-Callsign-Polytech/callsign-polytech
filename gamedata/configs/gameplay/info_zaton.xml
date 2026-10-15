@@ -551,6 +551,12 @@
 	<info_portion id="zat_polytech_router_faraday_gave"></info_portion>
 	<info_portion id="zat_polytech_router_faraday_freed"></info_portion>
 	<info_portion id="zat_polytech_router_done"></info_portion>
+	<info_portion id="zat_polytech_fpga_started"></info_portion>
+	<info_portion id="zat_polytech_fpga_max_met"></info_portion>
+	<info_portion id="zat_polytech_fpga_board_found"></info_portion>
+	<info_portion id="zat_polytech_fpga_board_burnt"></info_portion>
+	<info_portion id="zat_polytech_fpga_board_given"></info_portion>
+	<info_portion id="zat_polytech_fpga_done"></info_portion>
 	<info_portion id="zat_max_spawned"></info_portion>
 
 	<info_portion id="zat_fpga_scene_spawned"></info_portion>
