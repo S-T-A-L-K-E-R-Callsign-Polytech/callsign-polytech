@@ -2360,6 +2360,11 @@
 #include "gameplay\character_criticals_3.xml"
 		<actor_dialog>zat_polytech_router_start</actor_dialog>
 		<actor_dialog>zat_polytech_router_return</actor_dialog>
+		<actor_dialog>zat_polytech_fpga_start</actor_dialog>
+		<actor_dialog>zat_polytech_fpga_reminder</actor_dialog>
+		<actor_dialog>zat_polytech_fpga_handover</actor_dialog>
+		<actor_dialog>zat_polytech_fpga_waiting</actor_dialog>
+		<actor_dialog>zat_polytech_fpga_after</actor_dialog>
 		<actor_dialog>actor_break_dialog</actor_dialog>
 	</specific_character>
 
@@ -2439,6 +2444,12 @@
 #include "gameplay\character_drugs.xml"
 		</supplies>
 #include "gameplay\character_criticals_3.xml"
+		<actor_dialog>zat_max_fpga_before</actor_dialog>
+		<actor_dialog>zat_max_fpga_story</actor_dialog>
+		<actor_dialog>zat_max_fpga_reminder</actor_dialog>
+		<actor_dialog>zat_max_fpga_board</actor_dialog>
+		<actor_dialog>zat_max_fpga_final</actor_dialog>
+		<actor_dialog>zat_max_fpga_after</actor_dialog>
 		<actor_dialog>actor_break_dialog</actor_dialog>
 	</specific_character>
 

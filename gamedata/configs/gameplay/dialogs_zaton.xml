@@ -7426,4 +7426,337 @@
             </phrase>
         </phrase_list>
     </dialog>
+    <dialog id="zat_polytech_fpga_start">
+        <dont_has_info>zat_polytech_fpga_started</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>st_zat_polytech_fpga_start_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>st_zat_polytech_fpga_start_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="2">
+                <text>st_zat_polytech_fpga_start_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+                <text>st_zat_polytech_fpga_start_3</text>
+                <next>4</next>
+            </phrase>
+            <phrase id="4">
+                <text>st_zat_polytech_fpga_start_4</text>
+                <next>5</next>
+            </phrase>
+            <phrase id="5">
+                <text>st_zat_polytech_fpga_start_5</text>
+                <next>6</next>
+                <next>8</next>
+            </phrase>
+            <phrase id="6">
+                <text>st_zat_polytech_fpga_start_6</text>
+                <next>7</next>
+            </phrase>
+            <phrase id="7">
+                <text>st_zat_polytech_fpga_start_7</text>
+                <action>dialogs_polytech.fpga_give_task</action>
+            </phrase>
+            <phrase id="8">
+                <text>st_zat_polytech_fpga_start_8</text>
+                <next>9</next>
+            </phrase>
+            <phrase id="9">
+                <text>st_zat_polytech_fpga_start_9</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="zat_polytech_fpga_reminder">
+        <has_info>zat_polytech_fpga_started</has_info>
+        <dont_has_info>zat_polytech_fpga_board_found</dont_has_info>
+        <dont_has_info>zat_polytech_fpga_p2_said</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>st_zat_polytech_fpga_reminder_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>st_zat_polytech_fpga_reminder_1</text>
+                <give_info>zat_polytech_fpga_p2_said</give_info>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="zat_polytech_fpga_handover">
+        <has_info>zat_polytech_fpga_board_found</has_info>
+        <dont_has_info>zat_polytech_fpga_board_given</dont_has_info>
+        <precondition>dialogs_polytech.fpga_has_any_board</precondition>
+        <phrase_list>
+            <phrase id="0">
+                <text>st_zat_polytech_fpga_handover_0</text>
+                <next>1</next>
+                <next>6</next>
+            </phrase>
+            <phrase id="1">
+                <text>st_zat_polytech_fpga_handover_1</text>
+                <precondition>dialogs_polytech.fpga_has_intact</precondition>
+                <next>2</next>
+            </phrase>
+            <phrase id="2">
+                <text></text>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+                <text>st_zat_polytech_fpga_handover_3</text>
+                <next>4</next>
+                <action>dialogs_polytech.fpga_reward_full</action>
+            </phrase>
+            <phrase id="4">
+                <text></text>
+                <next>5</next>
+            </phrase>
+            <phrase id="5">
+                <text>st_zat_polytech_fpga_handover_5</text>
+                <next>11</next>
+                <action>dialogs_polytech.fpga_give_cheap</action>
+            </phrase>
+            <phrase id="6">
+                <text>st_zat_polytech_fpga_handover_6</text>
+                <precondition>dialogs_polytech.fpga_has_only_burnt</precondition>
+                <next>7</next>
+            </phrase>
+            <phrase id="7">
+                <text>st_zat_polytech_fpga_handover_7</text>
+                <next>8</next>
+            </phrase>
+            <phrase id="8">
+                <text>st_zat_polytech_fpga_handover_8</text>
+                <next>9</next>
+                <action>dialogs_polytech.fpga_reward_burnt</action>
+            </phrase>
+            <phrase id="9">
+                <text></text>
+                <next>10</next>
+            </phrase>
+            <phrase id="10">
+                <text>st_zat_polytech_fpga_handover_10</text>
+                <next>11</next>
+                <action>dialogs_polytech.fpga_give_cheap</action>
+            </phrase>
+            <phrase id="11">
+                <text>st_zat_polytech_fpga_handover_11</text>
+                <give_info>zat_polytech_fpga_board_given</give_info>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="zat_polytech_fpga_waiting">
+        <has_info>zat_polytech_fpga_board_given</has_info>
+        <dont_has_info>zat_polytech_fpga_done</dont_has_info>
+        <dont_has_info>zat_polytech_fpga_p4_said</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>st_zat_polytech_fpga_waiting_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>st_zat_polytech_fpga_waiting_1</text>
+                <give_info>zat_polytech_fpga_p4_said</give_info>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="zat_polytech_fpga_after">
+        <has_info>zat_polytech_fpga_done</has_info>
+        <dont_has_info>zat_polytech_fpga_p5_said</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>st_zat_polytech_fpga_after_0</text>
+                <next>1</next>
+                <next>2</next>
+            </phrase>
+            <phrase id="1">
+                <text>st_zat_polytech_fpga_after_1</text>
+                <dont_has_info>zat_polytech_fpga_board_burnt</dont_has_info>
+                <give_info>zat_polytech_fpga_p5_said</give_info>
+            </phrase>
+            <phrase id="2">
+                <text>st_zat_polytech_fpga_after_2</text>
+                <has_info>zat_polytech_fpga_board_burnt</has_info>
+                <give_info>zat_polytech_fpga_p5_said</give_info>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="zat_max_fpga_before">
+        <dont_has_info>zat_polytech_fpga_started</dont_has_info>
+        <dont_has_info>zat_polytech_fpga_m0_said</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>st_zat_max_fpga_before_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>st_zat_max_fpga_before_1</text>
+                <give_info>zat_polytech_fpga_m0_said</give_info>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="zat_max_fpga_story">
+        <has_info>zat_polytech_fpga_started</has_info>
+        <dont_has_info>zat_polytech_fpga_max_met</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>st_zat_max_fpga_story_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>st_zat_max_fpga_story_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="2">
+                <text>st_zat_max_fpga_story_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+                <text>st_zat_max_fpga_story_3</text>
+                <next>4</next>
+                <next>6</next>
+            </phrase>
+            <phrase id="4">
+                <text>st_zat_max_fpga_story_4</text>
+                <next>5</next>
+            </phrase>
+            <phrase id="5">
+                <text>st_zat_max_fpga_story_5</text>
+                <next>6</next>
+            </phrase>
+            <phrase id="6">
+                <text>st_zat_max_fpga_story_6</text>
+                <next>7</next>
+            </phrase>
+            <phrase id="7">
+                <text>st_zat_max_fpga_story_7</text>
+                <next>8</next>
+            </phrase>
+            <phrase id="8">
+                <text>st_zat_max_fpga_story_8</text>
+                <next>9</next>
+            </phrase>
+            <phrase id="9">
+                <text>st_zat_max_fpga_story_9</text>
+                <next>10</next>
+            </phrase>
+            <phrase id="10">
+                <text>st_zat_max_fpga_story_10</text>
+                <next>11</next>
+            </phrase>
+            <phrase id="11">
+                <text>st_zat_max_fpga_story_11</text>
+                <next>12</next>
+            </phrase>
+            <phrase id="12">
+                <text>st_zat_max_fpga_story_12</text>
+                <next>13</next>
+            </phrase>
+            <phrase id="13">
+                <text>st_zat_max_fpga_story_13</text>
+                <action>dialogs_polytech.fpga_max_start</action>
+                <give_info>zat_polytech_fpga_max_met</give_info>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="zat_max_fpga_reminder">
+        <has_info>zat_polytech_fpga_max_met</has_info>
+        <dont_has_info>zat_polytech_fpga_board_found</dont_has_info>
+        <dont_has_info>zat_polytech_fpga_m2_said</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>st_zat_max_fpga_reminder_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>st_zat_max_fpga_reminder_1</text>
+                <give_info>zat_polytech_fpga_m2_said</give_info>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="zat_max_fpga_board">
+        <has_info>zat_polytech_fpga_board_found</has_info>
+        <dont_has_info>zat_polytech_fpga_board_given</dont_has_info>
+        <precondition>dialogs_polytech.fpga_has_any_board</precondition>
+        <phrase_list>
+            <phrase id="0">
+                <text>st_zat_max_fpga_board_0</text>
+                <next>1</next>
+                <next>2</next>
+            </phrase>
+            <phrase id="1">
+                <text>st_zat_max_fpga_board_1</text>
+                <precondition>dialogs_polytech.fpga_has_intact</precondition>
+            </phrase>
+            <phrase id="2">
+                <text>st_zat_max_fpga_board_2</text>
+                <precondition>dialogs_polytech.fpga_has_only_burnt</precondition>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="zat_max_fpga_final">
+        <has_info>zat_polytech_fpga_board_given</has_info>
+        <dont_has_info>zat_polytech_fpga_done</dont_has_info>
+        <precondition>dialogs_polytech.fpga_has_cheap</precondition>
+        <phrase_list>
+            <phrase id="0">
+                <text>st_zat_max_fpga_final_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>st_zat_max_fpga_final_1</text>
+                <next>2</next>
+                <next>6</next>
+                <action>dialogs_polytech.fpga_take_cheap</action>
+            </phrase>
+            <phrase id="2">
+                <text></text>
+                <has_info>zat_polytech_fpga_board_burnt</has_info>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+                <text>st_zat_max_fpga_final_3</text>
+                <next>4</next>
+            </phrase>
+            <phrase id="4">
+                <text></text>
+                <next>5</next>
+            </phrase>
+            <phrase id="5">
+                <text>st_zat_max_fpga_final_5</text>
+                <next>7</next>
+                <action>dialogs_polytech.fpga_max_finish</action>
+                <give_info>zat_polytech_fpga_done</give_info>
+            </phrase>
+            <phrase id="6">
+                <text></text>
+                <dont_has_info>zat_polytech_fpga_board_burnt</dont_has_info>
+                <next>5</next>
+            </phrase>
+            <phrase id="7">
+                <text>st_zat_max_fpga_final_7</text>
+                <next>8</next>
+            </phrase>
+            <phrase id="8">
+                <text>st_zat_max_fpga_final_8</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="zat_max_fpga_after">
+        <has_info>zat_polytech_fpga_done</has_info>
+        <dont_has_info>zat_polytech_fpga_m5_said</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>st_zat_max_fpga_after_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>st_zat_max_fpga_after_1</text>
+                <give_info>zat_polytech_fpga_m5_said</give_info>
+            </phrase>
+        </phrase_list>
+    </dialog>
 </game_dialogs>

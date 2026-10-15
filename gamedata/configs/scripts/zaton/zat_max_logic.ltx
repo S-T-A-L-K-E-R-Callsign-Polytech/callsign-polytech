@@ -1,13 +1,26 @@
 [logic]
-active = remark@base
+active = remark@sit
 
 [smart_terrains]
 none = true
 
-[remark@base]
+[remark@sit]
 anim                             = sit_ass
 target                           = nil
 meet                             = meet
+on_info                          = {=dist_to_actor_le(3)} remark@stand
+invulnerable                     = true
+combat_ignore_cond               = true
+combat_ignore_keep_when_attacked = true
+gather_items_enabled             = false
+help_wounded_enabled             = false
+corpse_detection_enabled         = false
+
+[remark@stand]
+anim                             = wait
+target                           = story | actor
+meet                             = meet
+on_info                          = {=dist_to_actor_ge(5)} remark@sit
 invulnerable                     = true
 combat_ignore_cond               = true
 combat_ignore_keep_when_attacked = true
@@ -17,12 +30,12 @@ corpse_detection_enabled         = false
 
 [meet]
 close_distance  = 2
-close_anim      = wait
+close_anim      = nil
 close_snd_hello = nil
 close_snd_bye   = nil
 close_victim    = actor
 far_distance    = 4
-far_anim        = sit_ass
+far_anim        = nil
 far_victim      = nil
 use             = {=actor_enemy} false, true
 allow_break     = false
