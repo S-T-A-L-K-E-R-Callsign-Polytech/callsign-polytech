@@ -71,6 +71,10 @@ function fpga_take_cheap(first_speaker, second_speaker)
     dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "cheap_fpga_board")
 end
 
+function fpga_max_start(first_speaker, second_speaker)
+    polytech.spawn_fpga_scene()
+end
+
 function fpga_max_finish(first_speaker, second_speaker)
     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "energy_drink")
     dialogs.who_is_npc(first_speaker, second_speaker):set_relation(game_object.friend, db.actor)

@@ -7657,6 +7657,7 @@
             </phrase>
             <phrase id="13">
                 <text>st_zat_max_fpga_story_13</text>
+                <action>dialogs_polytech.fpga_max_start</action>
                 <give_info>zat_polytech_fpga_max_met</give_info>
             </phrase>
         </phrase_list>
