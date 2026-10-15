@@ -156,4 +156,22 @@
     <string id="st_zat_max_bio">
         <text>A FICE student writing a diploma on electrical anomaly patterns. Came to the Zone for fieldwork. Lost his equipment in the Iron Forest and has been stuck on the Shevchenko ever since.</text>
     </string>
+    <string id="st_fice_fpga_board_name">
+        <text>FPGA development board</text>
+    </string>
+    <string id="st_fice_fpga_board_desc">
+        <text>An FPGA development board, rescued from a pile of written-off equipment in building 18. Thousands of logic cells, a dozen fast inputs and one desperate diploma depending on it. Keep away from Electras, rain and scientific advisors.</text>
+    </string>
+    <string id="st_burnt_fpga_board_name">
+        <text>Burnt FPGA board</text>
+    </string>
+    <string id="st_burnt_fpga_board_desc">
+        <text>Used to be an FPGA development board. Now it&apos;s a piece of black textolite that smells like a soldering lab gone wrong. Technically it still has thousands of logic cells. None of them are logical anymore.</text>
+    </string>
+    <string id="st_cheap_fpga_board_name">
+        <text>Cheap FPGA board</text>
+    </string>
+    <string id="st_cheap_fpga_board_desc">
+        <text>A cheap FPGA board from a Chinese marketplace. Delivery took three months, the manual is in a language nobody can identify. Too weak for Polytech&apos;s scanner, but perfect for a diploma: the committee won&apos;t notice.</text>
+    </string>
 </string_table>
