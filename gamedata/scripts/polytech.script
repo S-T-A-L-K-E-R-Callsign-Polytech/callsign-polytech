@@ -77,3 +77,32 @@ function spawn_entities()
     spawn_once("zat_faraday_spawned_v2", "zat_faraday", 472.45, 37.12, 32.91, 1732117, 293)
     spawn_once("zat_max_spawned", "zat_max", -0.539003, -0.506748, 33.662804, 942595, 19)
 end
+
+local function spawn_polter_boxes()
+    if db.actor:has_info("zat_fpga_boxes_spawned") then return end
+    local center = vector():set(-337.445160, 40.061741, -388.426544)
+    local center_lvid = 277246
+    local sections = {"box_wood_02", "box_1a", "box_1b", "box_1c"}
+    local count = 14
+    for i = 0, count - 1 do
+        local angle = i * (2 * math.pi / count) + (i % 3) * 0.15
+        local dist = 6 + ((i * 7) % 5) * 5
+        local dir = vector():set(math.cos(angle), 0, math.sin(angle))
+        local lvid = level.vertex_in_direction(center_lvid, dir, dist)
+        local pos = level.vertex_position(lvid)
+        if pos:distance_to(center) >= 5 then
+            pos.y = pos.y + 0.1
+            alife():create(sections[i % #sections + 1], pos, lvid, 29)
+        end
+    end
+    db.actor:give_info_portion("zat_fpga_boxes_spawned")
+end
+
+function spawn_fpga_scene()
+    spawn_once("zat_fpga_scene_spawned",  "zat_max_backpack",     -337.445160, 40.561741, -388.426544, 277246, 29)
+    spawn_once("zat_fpga_board_spawned",  "fice_fpga_board",      -336.945160, 40.061741, -388.826544, 277246, 29)
+    spawn_once("zat_fpga_notes_spawned",  "zat_fpga_notes",       -337.245160, 40.061741, -388.126544, 277246, 29)
+    spawn_once("zat_fpga_scanner_spawned","zat_fpga_scanner",     -336.745160, 40.061741, -389.126544, 277246, 29)
+    spawn_once("zat_fpga_polter_spawned", "zat_fpga_poltergeist", -337.945160, 40.061741, -388.026544, 277246, 29)
+    spawn_polter_boxes()
+end
