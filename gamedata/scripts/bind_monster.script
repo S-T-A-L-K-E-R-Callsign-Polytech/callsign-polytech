@@ -55,7 +55,7 @@ function generic_object_binder:update(delta)
 
 	if not self.polytech_home and self.object:section() == "zat_fpga_poltergeist" then
 		self.polytech_home = true
-		self.object:set_home(277246, 5, 15, true, 10)
+		self.object:set_home(277246, 3, 10, true, 6)
 	end
 
 
