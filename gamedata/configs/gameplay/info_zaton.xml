@@ -553,4 +553,10 @@
 	<info_portion id="zat_polytech_router_done"></info_portion>
 	<info_portion id="zat_max_spawned"></info_portion>
 
+	<info_portion id="zat_fpga_scene_spawned"></info_portion>
+	<info_portion id="zat_fpga_board_spawned"></info_portion>
+	<info_portion id="zat_fpga_polter_spawned"></info_portion>
+	<info_portion id="zat_fpga_boxes_spawned"></info_portion>
+	<info_portion id="zat_fpga_notes_spawned"></info_portion>
+	<info_portion id="zat_fpga_scanner_spawned"></info_portion>
 </game_information_portions>

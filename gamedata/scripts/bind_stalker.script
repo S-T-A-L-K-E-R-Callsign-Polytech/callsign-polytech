@@ -85,6 +85,7 @@ function actor_binder:net_destroy()
 	self.object:set_callback(callback.level_border_exit, nil)
 	self.object:set_callback(callback.take_item_from_box, nil)
 	self.object:set_callback(callback.use_object, nil)
+	self.object:set_callback(callback.hit, nil)
 
 	log("--------->"..tostring(_G.amb_vol))
 	log("--------->"..tostring(_G.mus_vol))
@@ -119,10 +120,29 @@ function actor_binder:reinit()
 	self.object:set_callback(callback.task_state, self.task_callback, self)
 	self.object:set_callback(callback.take_item_from_box, self.take_item_from_box, self)
 	self.object:set_callback(callback.use_object, self.use_inventory_item, self)
+	self.object:set_callback(callback.hit, self.on_actor_hit, self)
 end
 ----------------------------------------------------------------------------------------------------------------------
 function actor_binder:take_item_from_box(box, item)
 	local box_name = box:name()
+end
+
+----------------------------------------------------------------------------------------------------------------------
+local FPGA_SND_PATH = [[polytech\fpga_short_circuit]]
+
+function actor_binder:on_actor_hit(obj, amount, direction, who, bone_id)
+	if not who then return end
+	if who:clsid() ~= clsid.zone_mbald_s then return end
+	local item = db.actor:object("fice_fpga_board")
+	if not item then return end
+	local pos = db.actor:position()
+	local lvid = db.actor:level_vertex_id()
+	local gvid = db.actor:game_vertex_id()
+	alife():release(alife():object(item:id()), true)
+	alife():create("burnt_fpga_board", pos, lvid, gvid, db.actor:id())
+	self.fpga_snd = sound_object(FPGA_SND_PATH)
+	self.fpga_snd:play(db.actor, 0, sound_object.s2d)
+	news_manager.send_tip(db.actor, "st_fpga_board_burnt_msg", 0, nil, 5000)
 end
 
 ----------------------------------------------------------------------------------------------------------------------
