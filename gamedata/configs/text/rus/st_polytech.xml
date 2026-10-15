@@ -177,4 +177,28 @@
     <string id="st_fpga_board_burnt_msg">
         <text>Плата FPGA получила удар разряда. Запах гарелого. Это нехорошо.</text>
     </string>
+    <string id="st_zat_polytech_fpga_find_name">
+        <text>Найти Макса</text>
+    </string>
+    <string id="st_zat_polytech_fpga_find_text">
+        <text>Политех отправил вас к Максу, студенту ФИВТ, который потерял свою плату FPGA в Железном лесу. Ищите его на «Шевченко».</text>
+    </string>
+    <string id="st_zat_polytech_fpga_get_name">
+        <text>Забрать плату FPGA из Железного леса</text>
+    </string>
+    <string id="st_zat_polytech_fpga_get_text">
+        <text>Макс потерял отладочную плату FPGA среди Электр в Железном лесу. Найдите его рюкзак и заберите плату.</text>
+    </string>
+    <string id="st_zat_polytech_fpga_bring_name">
+        <text>Отнести плату Политеху</text>
+    </string>
+    <string id="st_zat_polytech_fpga_bring_text">
+        <text>Плата FPGA у вас, целая или нет. Отнесите её Политеху на Скадовск.</text>
+    </string>
+    <string id="st_zat_polytech_fpga_return_name">
+        <text>Отнести дешёвую плату Максу</text>
+    </string>
+    <string id="st_zat_polytech_fpga_return_text">
+        <text>Взамен Политех дал дешёвую плату FPGA. Отнесите её Максу на «Шевченко».</text>
+    </string>
 </string_table>

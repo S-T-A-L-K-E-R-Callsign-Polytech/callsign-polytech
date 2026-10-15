@@ -177,4 +177,28 @@
     <string id="st_fpga_board_burnt_msg">
         <text>The FPGA board was hit by a discharge. Burnt smell. That&apos;s not good.</text>
     </string>
+    <string id="st_zat_polytech_fpga_find_name">
+        <text>Find Max</text>
+    </string>
+    <string id="st_zat_polytech_fpga_find_text">
+        <text>Polytech sent you to Max, a FICE student who lost his FPGA board in the Iron Forest. Look for him on the Shevchenko.</text>
+    </string>
+    <string id="st_zat_polytech_fpga_get_name">
+        <text>Retrieve the FPGA board from the Iron Forest</text>
+    </string>
+    <string id="st_zat_polytech_fpga_get_text">
+        <text>Max lost his FPGA board among the Electras in the Iron Forest. Find his backpack and take the board back.</text>
+    </string>
+    <string id="st_zat_polytech_fpga_bring_name">
+        <text>Bring the board to Polytech</text>
+    </string>
+    <string id="st_zat_polytech_fpga_bring_text">
+        <text>You have the FPGA board, intact or not. Take it to Polytech at the Skadovsk.</text>
+    </string>
+    <string id="st_zat_polytech_fpga_return_name">
+        <text>Take the cheap board to Max</text>
+    </string>
+    <string id="st_zat_polytech_fpga_return_text">
+        <text>Polytech handed over a cheap FPGA board instead. Take it to Max on the Shevchenko.</text>
+    </string>
 </string_table>

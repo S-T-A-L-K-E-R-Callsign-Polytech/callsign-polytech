@@ -387,3 +387,13 @@ target = {=actor_has_item(zat_rokovoy_router)} zat_polytech, {!is_alive(zat_fara
 on_init = %+zat_polytech_router_task_given%
 condlist_0 = {+zat_polytech_router_done} complete
 reward_money = 3000
+
+[zat_polytech_fpga]
+icon = ui_polytech_fpga_task
+prior = 1
+storyline = false
+title = {+zat_polytech_fpga_board_given} st_zat_polytech_fpga_return_name, {+zat_polytech_fpga_board_found} st_zat_polytech_fpga_bring_name, {+zat_polytech_fpga_max_met} st_zat_polytech_fpga_get_name, st_zat_polytech_fpga_find_name
+descr = {+zat_polytech_fpga_board_given} st_zat_polytech_fpga_return_text, {+zat_polytech_fpga_board_found} st_zat_polytech_fpga_bring_text, {+zat_polytech_fpga_max_met} st_zat_polytech_fpga_get_text, st_zat_polytech_fpga_find_text
+target = {+zat_polytech_fpga_board_given} zat_max, {+zat_polytech_fpga_board_found} zat_polytech, {+zat_polytech_fpga_max_met} fice_fpga_board, zat_max
+on_init = %+zat_polytech_fpga_started%
+condlist_0 = {+zat_polytech_fpga_done} complete
