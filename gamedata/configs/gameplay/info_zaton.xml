@@ -557,6 +557,9 @@
 	<info_portion id="zat_polytech_fpga_board_burnt"></info_portion>
 	<info_portion id="zat_polytech_fpga_board_given"></info_portion>
 	<info_portion id="zat_polytech_fpga_done"></info_portion>
+	<info_portion id="zat_polytech_fpga_p2_said"></info_portion>
+	<info_portion id="zat_polytech_fpga_p4_said"></info_portion>
+	<info_portion id="zat_polytech_fpga_p5_said"></info_portion>
 	<info_portion id="zat_max_spawned"></info_portion>
 
 	<info_portion id="zat_fpga_scene_spawned"></info_portion>

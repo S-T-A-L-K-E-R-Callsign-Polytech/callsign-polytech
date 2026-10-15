@@ -201,4 +201,82 @@
     <string id="st_zat_polytech_fpga_return_text">
         <text>Натомість Політех дав дешеву плату FPGA. Віднесіть її Максу на «Шевченку».</text>
     </string>
+    <string id="st_zat_polytech_fpga_start_0">
+        <text>Ти сьогодні якийсь не в настрої. Що сталося?</text>
+    </string>
+    <string id="st_zat_polytech_fpga_start_1">
+        <text>Сканер. Збираю сканер, що прогнозує артефакти. У мене купа даних з аномальних полів: що й де з'являється після викиду. Ідея проста: згодовуєш дані, отримуєш карту, де шукати. На практиці мій ПДА просто давиться цим потоком.</text>
+    </string>
+    <string id="st_zat_polytech_fpga_start_2">
+        <text>І що для цього треба?</text>
+    </string>
+    <string id="st_zat_polytech_fpga_start_3">
+        <text>Апаратне прискорення. Плата FPGA: вона обробляє сигнали паралельно, а не по черзі, як ПДА. Одна в мене є, китайська. Замало логічних комірок, немає швидких входів. Для лабораторної згодиться, а для Зони це іграшка.</text>
+    </string>
+    <string id="st_zat_polytech_fpga_start_4">
+        <text>А де взяти нормальну?</text>
+    </string>
+    <string id="st_zat_polytech_fpga_start_5">
+        <text>На «Шевченку» сидить хлопець, Макс. Студент ФІОТ, наш. Притягнув у Зону серйозну відлагоджувальну плату для дипломки. Як він її сюди доніс, не знаю і знати не хочу. Сходи до нього. Купи, виміняй, як хочеш. Тільки малого не кривдь.</text>
+    </string>
+    <string id="st_zat_polytech_fpga_start_6">
+        <text>Добре, поговорю з ним.</text>
+    </string>
+    <string id="st_zat_polytech_fpga_start_7">
+        <text>Дякую. І якщо почне розповідати про дипломку, просто кивай. Так швидше.</text>
+    </string>
+    <string id="st_zat_polytech_fpga_start_8">
+        <text>Не зараз, у мене свої справи.</text>
+    </string>
+    <string id="st_zat_polytech_fpga_start_9">
+        <text>Звісно. Сканер нікуди не дінеться. На відміну від дедлайну того малого.</text>
+    </string>
+    <string id="st_zat_polytech_fpga_reminder_0">
+        <text>Щодо тієї плати FPGA...</text>
+    </string>
+    <string id="st_zat_polytech_fpga_reminder_1">
+        <text>Нема плати, нема сканера. Макс на «Шевченку», якщо ти його ще не знайшов. А якщо знайшов, то знаєш більше за мене.</text>
+    </string>
+    <string id="st_zat_polytech_fpga_handover_0">
+        <text>Я приніс плату.</text>
+    </string>
+    <string id="st_zat_polytech_fpga_handover_1">
+        <text>Дай гляну... Жодної подряпини. Архітектура ціла, жодного пробою. Ти це ніс через «Електри»? Оце ювелірна робота. Сьогодні ж залию конфігурацію, і сканер запрацює як годинник.</text>
+    </string>
+    <string id="st_zat_polytech_fpga_handover_3">
+        <text>Тримай, ти заслужив кожну копійку. І передай Максу, хай краще теорією займається, практик з нього ніякий.</text>
+    </string>
+    <string id="st_zat_polytech_fpga_handover_5">
+        <text>А, і ще одне. Віднеси йому мою китайську плату. Мені вона ні до чого, а для дипломки більш ніж достатньо. Хай малий захиститься.</text>
+    </string>
+    <string id="st_zat_polytech_fpga_handover_6">
+        <text>Та щоб тебе... Ти що, через «Електру» з нею стрибав? Текстоліт почорнів, транзистори пробиті. Фізику в школі прогулював?</text>
+    </string>
+    <string id="st_zat_polytech_fpga_handover_7">
+        <text>Там полтергейст жбурлявся коробками!</text>
+    </string>
+    <string id="st_zat_polytech_fpga_handover_8">
+        <text>А ще в Залізному лісі є «Електри», я в курсі. Тому він і Залізний ліс, а не Ботанічний сад. Гаразд. Сяду з паяльником і зліплю щось із того, що вижило. Ось тобі на дрібні витрати, кур'єре.</text>
+    </string>
+    <string id="st_zat_polytech_fpga_handover_10">
+        <text>І все одно віднеси Максу мою китайську плату. Він тут ні до чого. Для дипломки вистачить.</text>
+    </string>
+    <string id="st_zat_polytech_fpga_handover_11">
+        <text>Віднесу.</text>
+    </string>
+    <string id="st_zat_polytech_fpga_waiting_0">
+        <text>Щодо Макса...</text>
+    </string>
+    <string id="st_zat_polytech_fpga_waiting_1">
+        <text>Ти вже відніс йому плату?</text>
+    </string>
+    <string id="st_zat_polytech_fpga_after_0">
+        <text>Як там сканер?</text>
+    </string>
+    <string id="st_zat_polytech_fpga_after_1">
+        <text>Гуде, як серверна. Макс, до речі, передавав: третій розділ готовий. Я не питав, що це означає.</text>
+    </string>
+    <string id="st_zat_polytech_fpga_after_2">
+        <text>Живий. Ледве. Згодиться.</text>
+    </string>
 </string_table>

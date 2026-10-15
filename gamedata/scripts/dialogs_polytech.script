@@ -27,3 +27,38 @@ end
 function router_from_faraday(first_speaker, second_speaker)
     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "zat_rokovoy_router")
 end
+
+local function fpga_has(section)
+    return db.actor:object(section) ~= nil
+end
+
+function fpga_give_task(first_speaker, second_speaker)
+    task_manager.get_task_manager():give_task("zat_polytech_fpga")
+end
+
+function fpga_has_intact(first_speaker, second_speaker)
+    return fpga_has("fice_fpga_board")
+end
+
+function fpga_has_only_burnt(first_speaker, second_speaker)
+    return fpga_has("burnt_fpga_board") and not fpga_has("fice_fpga_board")
+end
+
+function fpga_has_any_board(first_speaker, second_speaker)
+    return fpga_has("fice_fpga_board") or fpga_has("burnt_fpga_board")
+end
+
+function fpga_reward_full(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "fice_fpga_board")
+    dialogs.relocate_money_to_actor(first_speaker, second_speaker, 5000)
+    dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "detector_advanced")
+end
+
+function fpga_reward_burnt(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "burnt_fpga_board")
+    dialogs.relocate_money_to_actor(first_speaker, second_speaker, 500)
+end
+
+function fpga_give_cheap(first_speaker, second_speaker)
+    dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "cheap_fpga_board")
+end
