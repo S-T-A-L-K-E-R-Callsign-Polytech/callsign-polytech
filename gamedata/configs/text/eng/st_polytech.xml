@@ -174,4 +174,7 @@
     <string id="st_cheap_fpga_board_desc">
         <text>A cheap FPGA board from a Chinese marketplace. Delivery took three months, the manual is in a language nobody can identify. Too weak for Polytech&apos;s scanner, but perfect for a diploma: the committee won&apos;t notice.</text>
     </string>
+    <string id="st_fpga_board_burnt_msg">
+        <text>The FPGA board was hit by a discharge. Burnt smell. That&apos;s not good.</text>
+    </string>
 </string_table>
