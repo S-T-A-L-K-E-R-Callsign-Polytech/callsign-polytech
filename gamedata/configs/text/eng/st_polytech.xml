@@ -279,4 +279,91 @@
     <string id="st_zat_polytech_fpga_after_2">
         <text>Alive. Barely. It'll do.</text>
     </string>
+    <string id="st_zat_max_fpga_before_0">
+        <text>Hi. How are you doing?</text>
+    </string>
+    <string id="st_zat_max_fpga_before_1">
+        <text>Twenty-nine days to my defence and no equipment. How do you think? Sorry. Not a good time.</text>
+    </string>
+    <string id="st_zat_max_fpga_story_0">
+        <text>Polytech says you have an FPGA board. Will you sell it?</text>
+    </string>
+    <string id="st_zat_max_fpga_story_1">
+        <text>I would, if I still had it. Sorry. Long story.</text>
+    </string>
+    <string id="st_zat_max_fpga_story_2">
+        <text>I'm in no hurry.</text>
+    </string>
+    <string id="st_zat_max_fpga_story_3">
+        <text>My diploma is about electrical anomalies. On paper the topic sounded great. So I came to the Zone for field data and went to the Iron Forest: there's a whole field of Electras at the old substation. I set everything up right inside, connected the probes... and then a crate flew past my head. Then another one. Nobody around, and everything is flying at me.</text>
+    </string>
+    <string id="st_zat_max_fpga_story_4">
+        <text>Where did a student even get a board like that?</text>
+    </string>
+    <string id="st_zat_max_fpga_story_5">
+        <text>Building 18. One of the labs was writing off old equipment, and there was a pile of it by the door. Nobody was ever going to look for it again. Old by university standards, but here it's the best thing for a hundred kilometres around.</text>
+    </string>
+    <string id="st_zat_max_fpga_story_6">
+        <text>A poltergeist.</text>
+    </string>
+    <string id="st_zat_max_fpga_story_7">
+        <text>I didn't stop to ask its name. I ran. My backpack got torn off on the way, and the board fell out. When I looked back, things were still flying around it.</text>
+    </string>
+    <string id="st_zat_max_fpga_story_8">
+        <text>So I just need to go there and pick it up?</text>
+    </string>
+    <string id="st_zat_max_fpga_story_9">
+        <text>It's not that simple. The board is lying there with no protection, right among the Electras. If you catch even one discharge while it's on you, the chips burn instantly. And that thing will throw everything it can find at you.</text>
+    </string>
+    <string id="st_zat_max_fpga_story_10">
+        <text>And your diploma?</text>
+    </string>
+    <string id="st_zat_max_fpga_story_11">
+        <text>My defence is in a month. A month! In the Zone. Where am I going to get a new board here, from a trader, between the vodka and the canned meat? My diploma is finished anyway. If you get the board out in one piece, take it to Polytech. At least someone will use it.</text>
+    </string>
+    <string id="st_zat_max_fpga_story_12">
+        <text>I'll get it.</text>
+    </string>
+    <string id="st_zat_max_fpga_story_13">
+        <text>Just... be careful. I don't want my diploma to have a casualty. The committee would definitely ask about it.</text>
+    </string>
+    <string id="st_zat_max_fpga_reminder_0">
+        <text>About your board...</text>
+    </string>
+    <string id="st_zat_max_fpga_reminder_1">
+        <text>It's in the Iron Forest, in the south-east of the substation, next to my backpack. And the poltergeist is there too, unless it's found a new hobby.</text>
+    </string>
+    <string id="st_zat_max_fpga_board_0">
+        <text>I've got your board.</text>
+    </string>
+    <string id="st_zat_max_fpga_board_1">
+        <text>You actually got it?! In one piece?! ...Right. Polytech. A deal's a deal. Take it to him before I change my mind.</text>
+    </string>
+    <string id="st_zat_max_fpga_board_2">
+        <text>Is that... it? It's black. Well. Maybe Polytech can still salvage something. Take it to him.</text>
+    </string>
+    <string id="st_zat_max_fpga_final_0">
+        <text>Polytech sent you this.</text>
+    </string>
+    <string id="st_zat_max_fpga_final_1">
+        <text>An FPGA? A real, working FPGA?! It's Chinese, but who cares! I've got a month, I can still make it! This time I'll redo the measurements somewhere without poltergeists.</text>
+    </string>
+    <string id="st_zat_max_fpga_final_3">
+        <text>And my old board... burnt, right? Fine. I'll put it in the "Limitations of the study" section.</text>
+    </string>
+    <string id="st_zat_max_fpga_final_5">
+        <text>Here, take this. It's an energy drink, my emergency supply. And if you ever need anything on the "Shevchenko", come to me.</text>
+    </string>
+    <string id="st_zat_max_fpga_final_7">
+        <text>Good luck with your defence.</text>
+    </string>
+    <string id="st_zat_max_fpga_final_8">
+        <text>If I pass, drinks are on me at the Polyana. If I live until Friday.</text>
+    </string>
+    <string id="st_zat_max_fpga_after_0">
+        <text>How's the diploma going?</text>
+    </string>
+    <string id="st_zat_max_fpga_after_1">
+        <text>Chapter three is ready. Chapter three is never ready. But it's ready.</text>
+    </string>
 </string_table>

@@ -560,6 +560,9 @@
 	<info_portion id="zat_polytech_fpga_p2_said"></info_portion>
 	<info_portion id="zat_polytech_fpga_p4_said"></info_portion>
 	<info_portion id="zat_polytech_fpga_p5_said"></info_portion>
+	<info_portion id="zat_polytech_fpga_m0_said"></info_portion>
+	<info_portion id="zat_polytech_fpga_m2_said"></info_portion>
+	<info_portion id="zat_polytech_fpga_m5_said"></info_portion>
 	<info_portion id="zat_max_spawned"></info_portion>
 
 	<info_portion id="zat_fpga_scene_spawned"></info_portion>

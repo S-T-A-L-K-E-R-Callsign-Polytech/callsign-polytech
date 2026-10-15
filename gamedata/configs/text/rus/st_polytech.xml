@@ -279,4 +279,91 @@
     <string id="st_zat_polytech_fpga_after_2">
         <text>Живой. Еле-еле. Сойдёт.</text>
     </string>
+    <string id="st_zat_max_fpga_before_0">
+        <text>Привет. Как ты?</text>
+    </string>
+    <string id="st_zat_max_fpga_before_1">
+        <text>До защиты двадцать девять дней, а оборудования нет. Как думаешь? Извини. Не лучший момент.</text>
+    </string>
+    <string id="st_zat_max_fpga_story_0">
+        <text>Политех говорит, у тебя есть плата FPGA. Продашь?</text>
+    </string>
+    <string id="st_zat_max_fpga_story_1">
+        <text>Продал бы, если бы она ещё была у меня. Извини. Долгая история.</text>
+    </string>
+    <string id="st_zat_max_fpga_story_2">
+        <text>Я никуда не спешу.</text>
+    </string>
+    <string id="st_zat_max_fpga_story_3">
+        <text>Мой диплом про электрические аномалии. В теории тема звучала отлично. Так что я приехал в Зону за полевыми данными и пошёл в Железный лес: там на старой подстанции целое поле «Электр». Разложил всё прямо внутри, подключил щупы... и тут мимо головы пролетел ящик. Потом ещё один. Никого нет, а всё летит в меня.</text>
+    </string>
+    <string id="st_zat_max_fpga_story_4">
+        <text>А откуда у студента вообще такая плата?</text>
+    </string>
+    <string id="st_zat_max_fpga_story_5">
+        <text>Восемнадцатый корпус. Одна из лабораторий списывала старое оборудование, у двери лежала целая куча. Никто бы её уже не искал. Для университета старая, а здесь это лучшее на сто километров вокруг.</text>
+    </string>
+    <string id="st_zat_max_fpga_story_6">
+        <text>Полтергейст.</text>
+    </string>
+    <string id="st_zat_max_fpga_story_7">
+        <text>Я не останавливался спросить, как его зовут. Я убегал. Рюкзак по дороге сорвало, и плата выпала. Когда оглянулся, вокруг неё ещё что-то летало.</text>
+    </string>
+    <string id="st_zat_max_fpga_story_8">
+        <text>То есть мне надо просто пойти и забрать её?</text>
+    </string>
+    <string id="st_zat_max_fpga_story_9">
+        <text>Не всё так просто. Плата лежит там без всякой защиты, прямо среди «Электр». Если словишь хоть один разряд, пока она у тебя, микросхемы сгорят мгновенно. А та штука будет швырять в тебя всё, что найдёт.</text>
+    </string>
+    <string id="st_zat_max_fpga_story_10">
+        <text>А твой диплом?</text>
+    </string>
+    <string id="st_zat_max_fpga_story_11">
+        <text>Защита через месяц. Месяц! В Зоне. Где я тут возьму новую плату, у торговца между водкой и тушёнкой? Диплому всё равно конец. Достанешь плату целой — неси Политеху. Хоть кому-то пригодится.</text>
+    </string>
+    <string id="st_zat_max_fpga_story_12">
+        <text>Я её достану.</text>
+    </string>
+    <string id="st_zat_max_fpga_story_13">
+        <text>Только... осторожно. Не хочу, чтобы у моего диплома была жертва. Комиссия точно об этом спросит.</text>
+    </string>
+    <string id="st_zat_max_fpga_reminder_0">
+        <text>Насчёт твоей платы...</text>
+    </string>
+    <string id="st_zat_max_fpga_reminder_1">
+        <text>Она в Железном лесу, на юго-востоке подстанции, возле моего рюкзака. И полтергейст рядом, если не нашёл себе новое хобби.</text>
+    </string>
+    <string id="st_zat_max_fpga_board_0">
+        <text>Я достал твою плату.</text>
+    </string>
+    <string id="st_zat_max_fpga_board_1">
+        <text>Ты правда её достал?! Целую?! ...Так. Политех. Уговор есть уговор. Неси ему, пока я не передумал.</text>
+    </string>
+    <string id="st_zat_max_fpga_board_2">
+        <text>Это... она? Она же чёрная. Ну. Может, Политех что-то из неё ещё вытащит. Неси ему.</text>
+    </string>
+    <string id="st_zat_max_fpga_final_0">
+        <text>Политех передал тебе вот это.</text>
+    </string>
+    <string id="st_zat_max_fpga_final_1">
+        <text>FPGA? Настоящая, рабочая FPGA?! Китайская, да какая разница! У меня ещё месяц, я успею! В этот раз переделаю замеры где-нибудь, где нет полтергейстов.</text>
+    </string>
+    <string id="st_zat_max_fpga_final_3">
+        <text>А моя старая плата... сгорела, да? Ладно. Запишу в раздел «Ограничения исследования».</text>
+    </string>
+    <string id="st_zat_max_fpga_final_5">
+        <text>Вот, держи. Это энергетик, мой неприкосновенный запас. И если что понадобится на «Шевченко», приходи ко мне.</text>
+    </string>
+    <string id="st_zat_max_fpga_final_7">
+        <text>Удачи на защите.</text>
+    </string>
+    <string id="st_zat_max_fpga_final_8">
+        <text>Защищусь — проставлюсь на Поляне. Если доживу до пятницы.</text>
+    </string>
+    <string id="st_zat_max_fpga_after_0">
+        <text>Как там диплом?</text>
+    </string>
+    <string id="st_zat_max_fpga_after_1">
+        <text>Третья глава готова. Третья глава никогда не бывает готова. Но она готова.</text>
+    </string>
 </string_table>
