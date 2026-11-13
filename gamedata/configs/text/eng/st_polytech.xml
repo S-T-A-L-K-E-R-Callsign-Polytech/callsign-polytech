@@ -366,4 +366,16 @@
     <string id="st_zat_max_fpga_after_1">
         <text>Chapter three is ready. Chapter three is never ready. But it's ready.</text>
     </string>
+    <string id="st_zat_igorek_name">
+        <text>Igorek</text>
+    </string>
+    <string id="st_zat_igorek_bio">
+        <text>A legend of dorm No. 8. Lived there longer than anyone and ran the basement. They say he computed the sine of Monday.</text>
+    </string>
+    <string id="st_zat_sine_armlet_name">
+        <text>Mad Armlet</text>
+    </string>
+    <string id="st_zat_sine_armlet_bio">
+        <text>Nobody really knows who he is or where he came from. Wears a black sweatshirt with white flames and shoots without warning.</text>
+    </string>
 </string_table>

@@ -1131,4 +1131,14 @@
 		<class>zat_max</class>
 		<specific_character>zat_max</specific_character>
 	</character>
+
+	<character id="zat_igorek">
+		<class>zat_igorek</class>
+		<specific_character>zat_igorek</specific_character>
+	</character>
+
+	<character id="zat_sine_armlet">
+		<class>zat_sine_armlet</class>
+		<specific_character>zat_sine_armlet</specific_character>
+	</character>
 </xml>

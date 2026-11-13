@@ -366,4 +366,16 @@
     <string id="st_zat_max_fpga_after_1">
         <text>Третій розділ готовий. Третій розділ ніколи не буває готовим. Але він готовий.</text>
     </string>
+    <string id="st_zat_igorek_name">
+        <text>Ігорек</text>
+    </string>
+    <string id="st_zat_igorek_bio">
+        <text>Легенда восьмого гуртожитку. Жив там довше за всіх і збирав підвал. Кажуть, порахував синус понеділка.</text>
+    </string>
+    <string id="st_zat_sine_armlet_name">
+        <text>Скажений Армлет</text>
+    </string>
+    <string id="st_zat_sine_armlet_bio">
+        <text>Хто він і звідки, ніхто достеменно не знає. Ходить у чорному світшоті з білим полум'ям і стріляє без попередження.</text>
+    </string>
 </string_table>
