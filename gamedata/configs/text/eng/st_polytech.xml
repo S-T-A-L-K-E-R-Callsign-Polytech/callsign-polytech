@@ -402,4 +402,28 @@
     <string id="st_wpn_ak74_tor168_descr">
         <text>Igorek's AK-74 based rifle. Well kept and carefully zeroed: its owner clearly knows his weapons.\nMore accurate than a regular AK-74, has less recoil in bursts and wears out slower.</text>
     </string>
+    <string id="st_zat_polytech_sine_notes_name">
+        <text>Igorek's notes</text>
+    </string>
+    <string id="st_zat_polytech_sine_note1_text">
+        <text>Polytech told the story of Igorek and the sine of Monday. According to Furka, Igorek's first page is hidden near the port cranes.</text>
+    </string>
+    <string id="st_zat_polytech_sine_note2_text">
+        <text>On the napkin Igorek wrote that the next page is "where they fuelled cars that have long been gone from here".</text>
+    </string>
+    <string id="st_zat_polytech_sine_note3_text">
+        <text>On the second page Igorek writes that the third page is at the burned farm. Mad Armlet holds out there.</text>
+    </string>
+    <string id="st_zat_polytech_sine_igorek_name">
+        <text>Find Igorek</text>
+    </string>
+    <string id="st_zat_polytech_sine_igorek_text">
+        <text>Igorek waits on the Skadovsk, at Beard's counter. He wrote the day and the hour on the last page as a sine and a cosine. He will ask what a week is, where Monday is on it, what its sine is and which day has the largest sine. The answers are in the notes.</text>
+    </string>
+    <string id="st_zat_polytech_sine_return_name">
+        <text>Tell Polytech</text>
+    </string>
+    <string id="st_zat_polytech_sine_return_text">
+        <text>Igorek accepted the exam. Polytech is waiting for the answer: how did Igorek compute the sine of Monday?</text>
+    </string>
 </string_table>

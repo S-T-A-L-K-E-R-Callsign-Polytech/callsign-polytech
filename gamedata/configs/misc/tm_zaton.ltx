@@ -397,3 +397,13 @@ descr = {+zat_polytech_fpga_board_given} st_zat_polytech_fpga_return_text, {+zat
 target = {+zat_polytech_fpga_board_given} zat_max, {+zat_polytech_fpga_board_found} zat_polytech, {+zat_polytech_fpga_max_met} fice_fpga_board, zat_max
 on_init = %+zat_polytech_fpga_started%
 condlist_0 = {+zat_polytech_fpga_done} complete
+
+[zat_polytech_sine]
+icon = ui_inGame2_Strannoe_yavlenie
+prior = 1
+storyline = false
+title = {+zat_polytech_sine_exam_passed} st_zat_polytech_sine_return_name, {+zat_polytech_sine_note3_found} st_zat_polytech_sine_igorek_name, st_zat_polytech_sine_notes_name
+descr = {+zat_polytech_sine_exam_passed} st_zat_polytech_sine_return_text, {+zat_polytech_sine_note3_found} st_zat_polytech_sine_igorek_text, {+zat_polytech_sine_note2_found} st_zat_polytech_sine_note3_text, {+zat_polytech_sine_note1_found} st_zat_polytech_sine_note2_text, st_zat_polytech_sine_note1_text
+target = {+zat_polytech_sine_exam_passed} zat_polytech, {+zat_polytech_sine_note3_found} nil, {+zat_polytech_sine_note2_found} zat_sine_note_3, {+zat_polytech_sine_note1_found} zat_sine_note_2, zat_sine_note_1
+on_init = %+zat_polytech_sine_started%
+condlist_0 = {+zat_polytech_sine_done} complete
