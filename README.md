@@ -82,6 +82,7 @@ change the way the player prepares for trips into the Zone.
 ### Requirements
 
 - S.T.A.L.K.E.R.: Call of Pripyat, patch 1.6.02
+- OpenXRay with the day-of-week extension (`CTime:dayOfWeek()` in Lua, console variable `g_show_week_day`); the final quest "Sine of Monday" depends on it. It is in the [`callsign-polytech`](https://github.com/serrhiy/xray-16/tree/callsign-polytech) branch of the engine fork
 
 ---
 
