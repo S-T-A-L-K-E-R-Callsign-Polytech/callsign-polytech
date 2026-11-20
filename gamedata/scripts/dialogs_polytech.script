@@ -79,3 +79,39 @@ function fpga_max_finish(first_speaker, second_speaker)
     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "energy_drink")
     dialogs.who_is_npc(first_speaker, second_speaker):set_relation(game_object.friend, db.actor)
 end
+
+-- Sine of Monday
+
+function sine_give_task(first_speaker, second_speaker)
+    polytech.sine_start()
+end
+
+function sine_igorek_on_duty(first_speaker, second_speaker)
+    return polytech.sine_igorek_on_duty()
+end
+
+function sine_igorek_cannot_exam(first_speaker, second_speaker)
+    return db.actor:has_info("zat_polytech_sine_exam_failed") or not polytech.sine_igorek_on_duty()
+end
+
+-- Igorek's exam: every right answer has its own share, the last one is his rifle.
+local SINE_EXAM_LOOT = {
+    {"medkit_army", 2},
+    {"ammo_5.45x39_ap", 2},
+    {"af_fuzz_kolobok", 1},
+    {"wpn_ak74_tor168", 1},
+}
+
+local function sine_loot(n, first_speaker, second_speaker)
+    local section, amount = SINE_EXAM_LOOT[n][1], SINE_EXAM_LOOT[n][2]
+    dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, section, amount)
+end
+
+function sine_loot_1(first_speaker, second_speaker) sine_loot(1, first_speaker, second_speaker) end
+function sine_loot_2(first_speaker, second_speaker) sine_loot(2, first_speaker, second_speaker) end
+function sine_loot_3(first_speaker, second_speaker) sine_loot(3, first_speaker, second_speaker) end
+function sine_loot_4(first_speaker, second_speaker) sine_loot(4, first_speaker, second_speaker) end
+
+function sine_reward(first_speaker, second_speaker)
+    dialogs.relocate_money_to_actor(first_speaker, second_speaker, 7000)
+end
