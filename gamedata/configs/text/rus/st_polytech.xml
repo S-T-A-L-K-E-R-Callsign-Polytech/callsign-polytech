@@ -378,11 +378,23 @@
     <string id="st_zat_sine_armlet_bio">
         <text>Кто он и откуда, никто толком не знает. Ходит в чёрном свитшоте с белым пламенем и стреляет без предупреждения.</text>
     </string>
+    <string id="st_polytech_examine">
+        <text>Рассмотреть</text>
+    </string>
+    <string id="st_polytech_note_close">
+        <text>Закрыть</text>
+    </string>
     <string id="st_zat_sine_note_1_name">
         <text>Конспект Игорька: салфетка</text>
     </string>
     <string id="st_zat_sine_note_1_desc">
         <text>Салфетка из «Форы». Игорек нарисовал на ней круг и написал несколько строк. Её можно рассмотреть.</text>
+    </string>
+    <string id="st_zat_sine_note_1_text">
+        <text>После воскресенья снова понедельник. У недели нет концов, значит, это не отрезок.\nУглы растут против часовой, как в школе.\nСледующий лист — там, где заправляли машины, которых здесь давно нет.</text>
+    </string>
+    <string id="st_zat_sine_note_1_image">
+        <text>ui\polytech\zat_sine_note_1_rus</text>
     </string>
     <string id="st_zat_sine_note_2_name">
         <text>Конспект Игорька: лист из тетради</text>
@@ -390,11 +402,23 @@
     <string id="st_zat_sine_note_2_desc">
         <text>Лист в клетку, вырванный из тетради. Почерк Игорька. Его можно рассмотреть.</text>
     </string>
+    <string id="st_zat_sine_note_2_text">
+        <text>Лист 2\nКруг — 360°, дней — 7, шаг — около 51°.\nПн 0°, Вт 51°, Ср 103°, Чт 154°, Пт 206°, Сб 257°, Вс 309°.\nСинус — высота точки над горизонталью: выше — плюс, на ней — ноль, ниже — минус. Самый большой, единица, — на 90°.\nСутки — тоже круг: 24 часа — 360°, полночь — 0°, час — 15°.\nЛист 3 — на сгоревшем хуторе. Там засел Бешеный Армлет.</text>
+    </string>
+    <string id="st_zat_sine_note_2_image">
+        <text>ui\polytech\zat_sine_note_2_rus</text>
+    </string>
     <string id="st_zat_sine_note_3_name">
         <text>Конспект Игорька: последний лист</text>
     </string>
     <string id="st_zat_sine_note_3_desc">
         <text>Ещё один лист из тетради. Почерк Игорька. Его можно рассмотреть.</text>
+    </string>
+    <string id="st_zat_sine_note_3_text">
+        <text>Лист 3\nЧтобы найти меня, ты должен прийти на «Скадовск» в\nsin(день недели) = -0.433883739117558\nи cos(времени) = 0.7071067811865474.\n— И.</text>
+    </string>
+    <string id="st_zat_sine_note_3_image">
+        <text>ui\polytech\zat_sine_note_3_rus</text>
     </string>
     <string id="st_wpn_ak74_tor168">
         <text>ТОР-168</text>
