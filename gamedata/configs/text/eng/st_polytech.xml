@@ -426,4 +426,184 @@
     <string id="st_zat_polytech_sine_return_text">
         <text>Igorek accepted the exam. Polytech is waiting for the answer: how did Igorek compute the sine of Monday?</text>
     </string>
+    <string id="st_zat_polytech_sine_start_0">
+        <text>Why so thoughtful?</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_1">
+        <text>Max sent a note: he defended his thesis. Promises to buy everyone drinks on Friday. And as soon as I read it, I remembered dorm No. 8. Room two-oh-seven.</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_2">
+        <text>What is room two-oh-seven?</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_3">
+        <text>Two big guys lived there. On Fridays they threw parties and invited Crosshel, Cook, VladOS, General, Kvantur and Furka. Half of the guests did not even live in the dorm, they sneaked past the guard. I was there more often than in my own room. And I remember that room because of Igorek.</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_4">
+        <text>Who is Igorek?</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_5">
+        <text>A legend of the dorm. Lived there longer than anyone, ran the basement. One Friday we were sitting in two-oh-seven, had drunk a lot, and Igorek walked in. Cook was cooking at the time. Igorek sat down and said: "Guys, I computed the sine of Monday."</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_6">
+        <text>The sine... of Monday?</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_7">
+        <text>We asked the same. He explained it half the night: drew on a napkin, spun a bagel, talked about "Fora" and about Friday. I remember that it all added up. In the morning we only remembered bits and pieces, one thing here, another there, and nobody could put them together. By then Igorek had already left.</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_8">
+        <text>And what does the Zone have to do with it?</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_9">
+        <text>Furka came by the Skadovsk recently. He rarely comes to the Zone: stocks up on the famous cheese pancakes and disappears for half a year. So, he says Igorek is here too. And as always, Igorek explains nothing directly: he spread his notes over three stashes on Zaton, a page in each. According to Furka, the first one is near the port cranes.</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_10">
+        <text>You want me to collect them?</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_11">
+        <text>I want to know the answer. Collect the notes, figure it out and find Igorek. He pays well for right answers: whatever he gives you is yours. I only need to hear how he computed the sine of Monday. One more thing: I flashed the day of the week into your PDA. In the Zone all days are the same, but here you cannot do without it.</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_12">
+        <text>I have no time for sines right now.</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_13">
+        <text>Sines can wait. They are periodic, they will come back.</text>
+    </string>
+    <string id="st_zat_polytech_sine_hint_0">
+        <text>Any idea where to start with this sine?</text>
+    </string>
+    <string id="st_zat_polytech_sine_hint_1">
+        <text>A week ends, and then what? It starts again. What shape behaves like that?</text>
+    </string>
+    <string id="st_zat_polytech_sine_hint_2">
+        <text>And where does the sine come in?</text>
+    </string>
+    <string id="st_zat_polytech_sine_hint_3">
+        <text>A sine belongs to an angle. So Monday must have an angle. Remember where angles were measured from at school.</text>
+    </string>
+    <string id="st_zat_polytech_sine_where_0">
+        <text>Where do I look for Igorek?</text>
+    </string>
+    <string id="st_zat_polytech_sine_where_1">
+        <text>He wrote the place plainly and coded the time. Work out the day from the second page, all the angles are there. A day is a circle too: midnight is zero, an hour is fifteen degrees. But the cosine has two answers, at night and in the evening, so think when Igorek goes to a bar. And keep an eye on the day of the week in your PDA.</text>
+    </string>
+    <string id="st_zat_polytech_sine_finish_0">
+        <text>I found Igorek.</text>
+    </string>
+    <string id="st_zat_polytech_sine_finish_1">
+        <text>Seriously? So how did he compute the sine of Monday?</text>
+    </string>
+    <string id="st_zat_polytech_sine_finish_2">
+        <text>A week is a circle. Monday is on the right, at angle zero. The sine is the height of the point above the horizon, and for Monday it is zero.</text>
+    </string>
+    <string id="st_zat_polytech_sine_finish_3">
+        <text>He said it was a secret.</text>
+    </string>
+    <string id="st_zat_polytech_sine_finish_4">
+        <text>The sine of Monday is one. Monday is the first day, after all.</text>
+    </string>
+    <string id="st_zat_polytech_sine_finish_5">
+        <text>Zero. All these years, and it is zero. You know, this is the best zero of my life: it is not about "nothing", it is about where to count from.</text>
+    </string>
+    <string id="st_zat_polytech_sine_finish_6">
+        <text>I do not believe it. Igorek hides nothing, he just does not explain. Think again.</text>
+    </string>
+    <string id="st_zat_polytech_sine_finish_7">
+        <text>For Monday, it is the cosine that equals one. The sine is a height, not a number in a list. Think again.</text>
+    </string>
+    <string id="st_zat_polytech_sine_finish_8">
+        <text>Igorek asked me to tell you: back then you sat on Kvantur's bed and understood everything.</text>
+    </string>
+    <string id="st_zat_polytech_sine_finish_9">
+        <text>I did. And I understood. Then Cook brought cheese pancakes and it was all forgotten. Thank you, stalker. Here, this is from me. And tell everyone: Friday at nine on the Skadovsk. Drinks are on me.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_0">
+        <text>I am here about the sine of Monday.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_1">
+        <text>So you collected the notes and worked out the time. Then point by point: every right answer gets its share. First question: what is a week?</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_2">
+        <text>Let's go on. First question: what is a week?</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_3">
+        <text>Let's go on. Second question: where is Monday on the circle?</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_4">
+        <text>Let's go on. Third question: what is the sine of Monday?</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_5">
+        <text>Let's go on. Last question: which day has the largest sine?</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_11">
+        <text>A segment from Monday to Sunday.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_12">
+        <text>A circle. After Sunday comes Monday again.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_13">
+        <text>Five working days and two days off.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_20">
+        <text>Right. Take these medkits, you will need them. Second question: where is Monday on the circle?</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_21">
+        <text>At the top, like twelve on a clock.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_22">
+        <text>On the right, on the horizontal line, where the angle is zero.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_23">
+        <text>At the bottom.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_30">
+        <text>Right. Take the 5.45 rounds, you will soon see why. Third question: what is the sine of Monday?</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_31">
+        <text>One.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_32">
+        <text>Zero.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_33">
+        <text>Minus one.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_40">
+        <text>Right: Monday lies on the horizontal line, its height is zero. Take this Kolobok. Last question: which day has the largest sine?</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_41">
+        <text>Friday.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_42">
+        <text>Tuesday.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_43">
+        <text>Wednesday.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_44">
+        <text>Sunday.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_50">
+        <text>Right: Wednesday is the closest to ninety degrees. Exam passed. Take my TOR-168: one hundred and sixty-eight hours in a week, not one extra. And I have to go. Tell Polytech: back then he sat on Kvantur's bed and understood everything. Let him remember.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_80">
+        <text>No. Read the notes again and come next Friday. We will go on from this question.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_82">
+        <text>No. For Monday, it is the cosine that equals one, and the sine is the height. Come next Friday, we will go on from this question.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_83">
+        <text>By how it feels, yes. But on the circle Friday is below the horizontal line, its sine is negative. Come next Friday, we will go on from this question.</text>
+    </string>
+    <string id="st_zat_igorek_sine_wait_0">
+        <text>Shall we go on with the exam?</text>
+    </string>
+    <string id="st_zat_igorek_sine_wait_1">
+        <text>Not today. A week is a circle, Friday will come back.</text>
+    </string>
+    <string id="st_zat_igorek_sine_after_0">
+        <text>Will we meet again?</text>
+    </string>
+    <string id="st_zat_igorek_sine_after_1">
+        <text>Sure. On Friday. A week is a circle.</text>
+    </string>
 </string_table>

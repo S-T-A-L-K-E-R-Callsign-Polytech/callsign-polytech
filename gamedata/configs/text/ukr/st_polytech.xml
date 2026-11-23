@@ -426,4 +426,184 @@
     <string id="st_zat_polytech_sine_return_text">
         <text>Ігорек прийняв іспит. Політех чекає на відповідь: як Ігорек порахував синус понеділка?</text>
     </string>
+    <string id="st_zat_polytech_sine_start_0">
+        <text>Ти чого такий замислений?</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_1">
+        <text>Макс записку передав: захистився. Обіцяє проставитися в п'ятницю. А я як прочитав, одразу згадав восьму общагу. Двісті сьому кімнату.</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_2">
+        <text>Що за двісті сьома?</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_3">
+        <text>Жили там два богатирі. По п'ятницях влаштовували посиденьки й кликали до себе Кросхела, Кухаря, ВладOSа, Генерала, Квантура і Фурку. Половина гостей у гуртожитку не жила, проходили повз вахту нелегалами. Я в них бував частіше, ніж у себе. А запам'яталася вона мені через Ігорька.</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_4">
+        <text>Хто такий Ігорек?</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_5">
+        <text>Легенда гуртожитку. Жив у гуртожитку довше за всіх, збирав підвал. Якось у п'ятницю сиділи ми у двісті сьомій, добряче випили, і тут до нас зайшов Ігорек. Кухар якраз готував. Ігорек сів і каже: «Пацани, я порахував синус понеділка».</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_6">
+        <text>Синус... понеділка?</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_7">
+        <text>От і ми перепитали. Він пояснював пів ночі: малював на серветці, крутив бублик, говорив про «Фору», про п'ятницю. Я пам'ятаю, що все сходилося. А зранку пригадували уривками: хтось одне, хтось інше, а в логічний ланцюжок так нічого й не склалося. Ігорек на той час уже пішов.</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_8">
+        <text>А до чого тут Зона?</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_9">
+        <text>Фурка нещодавно заходив на «Скадовськ». Він рідко в Зону приїжджає: закуповується фірмовими сирниками і зникає на пів року. Так от, каже, Ігорек теж тут. І, як завжди, нічого не пояснює прямо: розклав свої конспекти по трьох схованках на Затоні, по аркушу в кожній. Перша, за словами Фурки, біля портових кранів.</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_10">
+        <text>Хочеш, щоб я їх зібрав?</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_11">
+        <text>Хочу знати відповідь. Збери конспекти, розберися і знайди Ігорька. За правильні відповіді він не скупиться: що дасть — усе твоє. Мені треба лише почути, як він порахував синус понеділка. І ще: я тобі в КПК день тижня прошив. У Зоні всі дні однакові, а тут без нього ніяк.</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_12">
+        <text>Мені зараз не до синусів.</text>
+    </string>
+    <string id="st_zat_polytech_sine_start_13">
+        <text>Синуси почекають. Вони періодичні, повернуться.</text>
+    </string>
+    <string id="st_zat_polytech_sine_hint_0">
+        <text>Підкажи, з якого боку братися за цей синус.</text>
+    </string>
+    <string id="st_zat_polytech_sine_hint_1">
+        <text>Тиждень закінчується — і що далі? Починається знову. Яка фігура так поводиться?</text>
+    </string>
+    <string id="st_zat_polytech_sine_hint_2">
+        <text>А синус тут до чого?</text>
+    </string>
+    <string id="st_zat_polytech_sine_hint_3">
+        <text>Синус буває в кута. Отже, у понеділка має бути кут. Згадай, звідки в школі відраховували кути.</text>
+    </string>
+    <string id="st_zat_polytech_sine_where_0">
+        <text>Де шукати Ігорька?</text>
+    </string>
+    <string id="st_zat_polytech_sine_where_1">
+        <text>Місце він написав прямо, а час зашифрував. День рахуй за другим аркушем, там усі кути є. Доба — теж коло: північ — нуль, година — п'ятнадцять градусів. Тільки в косинуса дві відповіді, вночі й увечері, — подумай, коли Ігорек ходить у бар. І на день тижня в КПК поглядай.</text>
+    </string>
+    <string id="st_zat_polytech_sine_finish_0">
+        <text>Я знайшов Ігорька.</text>
+    </string>
+    <string id="st_zat_polytech_sine_finish_1">
+        <text>Серйозно? І як він порахував синус понеділка?</text>
+    </string>
+    <string id="st_zat_polytech_sine_finish_2">
+        <text>Тиждень — це коло. Понеділок праворуч, на нульовому куті. Синус — висота точки над горизонтом, у понеділка вона нуль.</text>
+    </string>
+    <string id="st_zat_polytech_sine_finish_3">
+        <text>Він сказав, що це секрет.</text>
+    </string>
+    <string id="st_zat_polytech_sine_finish_4">
+        <text>Синус понеділка — одиниця. Понеділок же перший.</text>
+    </string>
+    <string id="st_zat_polytech_sine_finish_5">
+        <text>Нуль. Стільки років — і нуль. Знаєш, це найкращий нуль у моєму житті: він не про «нічого», а про те, звідки рахувати.</text>
+    </string>
+    <string id="st_zat_polytech_sine_finish_6">
+        <text>Не вірю. Ігорек нічого не приховує, він просто не пояснює. Подумай ще.</text>
+    </string>
+    <string id="st_zat_polytech_sine_finish_7">
+        <text>Одиниці в понеділка дорівнює косинус. Синус — це висота, а не номер у списку. Подумай ще.</text>
+    </string>
+    <string id="st_zat_polytech_sine_finish_8">
+        <text>Ігорек просив передати: ти тоді сидів на ліжку Квантура і все зрозумів.</text>
+    </string>
+    <string id="st_zat_polytech_sine_finish_9">
+        <text>Сидів. І зрозумів. А потім Кухар приніс сирники, і все забулося. Дякую, сталкере. Тримай, це від мене. І передай усім: у п'ятницю о дев'ятій на «Скадовську». Я проставляюся.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_0">
+        <text>Я щодо синуса понеділка.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_1">
+        <text>Отже, конспекти зібрав і час порахував. Тоді по пунктах: за кожну правильну відповідь — своя частка. Перше питання: тиждень — це що?</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_2">
+        <text>Продовжимо. Перше питання: тиждень — це що?</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_3">
+        <text>Продовжимо. Друге питання: де на колі понеділок?</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_4">
+        <text>Продовжимо. Третє питання: чому дорівнює синус понеділка?</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_5">
+        <text>Продовжимо. Останнє питання: у якого дня синус найбільший?</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_11">
+        <text>Відрізок від понеділка до неділі.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_12">
+        <text>Коло. Після неділі знову понеділок.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_13">
+        <text>П'ять робочих днів і два вихідних.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_20">
+        <text>Правильно. Тримай аптечки, знадобляться. Друге питання: де на колі понеділок?</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_21">
+        <text>Нагорі, як дванадцята на годиннику.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_22">
+        <text>Праворуч, на горизонталі, де кут нуль.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_23">
+        <text>Унизу.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_30">
+        <text>Правильно. Тримай набої 5,45, скоро зрозумієш навіщо. Третє питання: чому дорівнює синус понеділка?</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_31">
+        <text>Одиниці.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_32">
+        <text>Нулю.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_33">
+        <text>Мінус одиниці.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_40">
+        <text>Правильно: понеділок лежить на горизонталі, висота в нього нуль. Тримай «Колобок». Останнє питання: у якого дня синус найбільший?</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_41">
+        <text>У п'ятниці.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_42">
+        <text>У вівторка.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_43">
+        <text>У середи.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_44">
+        <text>У неділі.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_50">
+        <text>Правильно: середа найближча до дев'яноста градусів. Іспит складено. Тримай мій ТОР-168: сто шістдесят вісім годин у тижні, жодної зайвої. А мені час. Передай Політеху: він тоді сидів на ліжку Квантура і все зрозумів. Хай згадає.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_80">
+        <text>Ні. Перечитай конспекти і приходь наступної п'ятниці. Продовжимо з цього питання.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_82">
+        <text>Ні. Одиниці в понеділка дорівнює косинус, а синус — це висота. Приходь наступної п'ятниці, продовжимо з цього питання.</text>
+    </string>
+    <string id="st_zat_igorek_sine_exam_83">
+        <text>За самопочуттям — так. Але п'ятниця на колі нижче горизонталі, синус у неї від'ємний. Приходь наступної п'ятниці, продовжимо з цього питання.</text>
+    </string>
+    <string id="st_zat_igorek_sine_wait_0">
+        <text>Може, продовжимо іспит?</text>
+    </string>
+    <string id="st_zat_igorek_sine_wait_1">
+        <text>Не сьогодні. Тиждень — коло, п'ятниця повернеться.</text>
+    </string>
+    <string id="st_zat_igorek_sine_after_0">
+        <text>Ще побачимося?</text>
+    </string>
+    <string id="st_zat_igorek_sine_after_1">
+        <text>Обов'язково. У п'ятницю. Тиждень — коло.</text>
+    </string>
 </string_table>

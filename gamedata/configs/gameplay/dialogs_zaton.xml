@@ -7759,4 +7759,324 @@
             </phrase>
         </phrase_list>
     </dialog>
+    <dialog id="zat_polytech_sine_start">
+        <has_info>zat_polytech_router_done</has_info>
+        <has_info>zat_polytech_fpga_done</has_info>
+        <dont_has_info>zat_polytech_sine_started</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>st_zat_polytech_sine_start_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>st_zat_polytech_sine_start_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="2">
+                <text>st_zat_polytech_sine_start_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+                <text>st_zat_polytech_sine_start_3</text>
+                <next>4</next>
+            </phrase>
+            <phrase id="4">
+                <text>st_zat_polytech_sine_start_4</text>
+                <next>5</next>
+            </phrase>
+            <phrase id="5">
+                <text>st_zat_polytech_sine_start_5</text>
+                <next>6</next>
+            </phrase>
+            <phrase id="6">
+                <text>st_zat_polytech_sine_start_6</text>
+                <next>7</next>
+            </phrase>
+            <phrase id="7">
+                <text>st_zat_polytech_sine_start_7</text>
+                <next>8</next>
+            </phrase>
+            <phrase id="8">
+                <text>st_zat_polytech_sine_start_8</text>
+                <next>9</next>
+            </phrase>
+            <phrase id="9">
+                <text>st_zat_polytech_sine_start_9</text>
+                <next>10</next>
+                <next>12</next>
+            </phrase>
+            <phrase id="10">
+                <text>st_zat_polytech_sine_start_10</text>
+                <next>11</next>
+            </phrase>
+            <phrase id="11">
+                <text>st_zat_polytech_sine_start_11</text>
+                <action>dialogs_polytech.sine_give_task</action>
+            </phrase>
+            <phrase id="12">
+                <text>st_zat_polytech_sine_start_12</text>
+                <next>13</next>
+            </phrase>
+            <phrase id="13">
+                <text>st_zat_polytech_sine_start_13</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="zat_polytech_sine_hint">
+        <has_info>zat_polytech_sine_started</has_info>
+        <dont_has_info>zat_polytech_sine_exam_passed</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>st_zat_polytech_sine_hint_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>st_zat_polytech_sine_hint_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="2">
+                <text>st_zat_polytech_sine_hint_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+                <text>st_zat_polytech_sine_hint_3</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="zat_polytech_sine_where">
+        <has_info>zat_polytech_sine_note3_found</has_info>
+        <dont_has_info>zat_polytech_sine_exam_passed</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>st_zat_polytech_sine_where_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>st_zat_polytech_sine_where_1</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="zat_polytech_sine_finish">
+        <has_info>zat_polytech_sine_exam_passed</has_info>
+        <dont_has_info>zat_polytech_sine_done</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>st_zat_polytech_sine_finish_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>st_zat_polytech_sine_finish_1</text>
+                <next>3</next>
+                <next>2</next>
+                <next>4</next>
+            </phrase>
+            <phrase id="2">
+                <text>st_zat_polytech_sine_finish_2</text>
+                <next>5</next>
+            </phrase>
+            <phrase id="3">
+                <text>st_zat_polytech_sine_finish_3</text>
+                <next>6</next>
+            </phrase>
+            <phrase id="4">
+                <text>st_zat_polytech_sine_finish_4</text>
+                <next>7</next>
+            </phrase>
+            <phrase id="5">
+                <text>st_zat_polytech_sine_finish_5</text>
+                <next>8</next>
+            </phrase>
+            <phrase id="6">
+                <text>st_zat_polytech_sine_finish_6</text>
+            </phrase>
+            <phrase id="7">
+                <text>st_zat_polytech_sine_finish_7</text>
+            </phrase>
+            <phrase id="8">
+                <text>st_zat_polytech_sine_finish_8</text>
+                <next>9</next>
+            </phrase>
+            <phrase id="9">
+                <text>st_zat_polytech_sine_finish_9</text>
+                <give_info>zat_polytech_sine_done</give_info>
+                <action>dialogs_polytech.sine_reward</action>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="zat_igorek_sine_exam">
+        <has_info>zat_polytech_sine_note3_found</has_info>
+        <dont_has_info>zat_polytech_sine_exam_failed</dont_has_info>
+        <dont_has_info>zat_polytech_sine_exam_passed</dont_has_info>
+        <precondition>dialogs_polytech.sine_igorek_on_duty</precondition>
+        <phrase_list>
+            <phrase id="0">
+                <text>st_zat_igorek_sine_exam_0</text>
+                <next>1</next>
+                <next>2</next>
+                <next>3</next>
+                <next>4</next>
+                <next>5</next>
+            </phrase>
+            <phrase id="1">
+                <dont_has_info>zat_polytech_sine_igorek_met</dont_has_info>
+                <text>st_zat_igorek_sine_exam_1</text>
+                <give_info>zat_polytech_sine_igorek_met</give_info>
+                <next>11</next>
+                <next>12</next>
+                <next>13</next>
+            </phrase>
+            <phrase id="2">
+                <has_info>zat_polytech_sine_igorek_met</has_info>
+                <dont_has_info>zat_polytech_sine_q1_passed</dont_has_info>
+                <text>st_zat_igorek_sine_exam_2</text>
+                <next>11</next>
+                <next>12</next>
+                <next>13</next>
+            </phrase>
+            <phrase id="3">
+                <has_info>zat_polytech_sine_q1_passed</has_info>
+                <dont_has_info>zat_polytech_sine_q2_passed</dont_has_info>
+                <text>st_zat_igorek_sine_exam_3</text>
+                <next>21</next>
+                <next>23</next>
+                <next>22</next>
+            </phrase>
+            <phrase id="4">
+                <has_info>zat_polytech_sine_q2_passed</has_info>
+                <dont_has_info>zat_polytech_sine_q3_passed</dont_has_info>
+                <text>st_zat_igorek_sine_exam_4</text>
+                <next>31</next>
+                <next>32</next>
+                <next>33</next>
+            </phrase>
+            <phrase id="5">
+                <has_info>zat_polytech_sine_q3_passed</has_info>
+                <text>st_zat_igorek_sine_exam_5</text>
+                <next>41</next>
+                <next>43</next>
+                <next>42</next>
+                <next>44</next>
+            </phrase>
+            <phrase id="11">
+                <text>st_zat_igorek_sine_exam_11</text>
+                <next>80</next>
+            </phrase>
+            <phrase id="12">
+                <text>st_zat_igorek_sine_exam_12</text>
+                <next>20</next>
+            </phrase>
+            <phrase id="13">
+                <text>st_zat_igorek_sine_exam_13</text>
+                <next>80</next>
+            </phrase>
+            <phrase id="20">
+                <text>st_zat_igorek_sine_exam_20</text>
+                <give_info>zat_polytech_sine_q1_passed</give_info>
+                <action>dialogs_polytech.sine_loot_1</action>
+                <next>21</next>
+                <next>23</next>
+                <next>22</next>
+            </phrase>
+            <phrase id="21">
+                <text>st_zat_igorek_sine_exam_21</text>
+                <next>80</next>
+            </phrase>
+            <phrase id="22">
+                <text>st_zat_igorek_sine_exam_22</text>
+                <next>30</next>
+            </phrase>
+            <phrase id="23">
+                <text>st_zat_igorek_sine_exam_23</text>
+                <next>80</next>
+            </phrase>
+            <phrase id="30">
+                <text>st_zat_igorek_sine_exam_30</text>
+                <give_info>zat_polytech_sine_q2_passed</give_info>
+                <action>dialogs_polytech.sine_loot_2</action>
+                <next>31</next>
+                <next>32</next>
+                <next>33</next>
+            </phrase>
+            <phrase id="31">
+                <text>st_zat_igorek_sine_exam_31</text>
+                <next>82</next>
+            </phrase>
+            <phrase id="32">
+                <text>st_zat_igorek_sine_exam_32</text>
+                <next>40</next>
+            </phrase>
+            <phrase id="33">
+                <text>st_zat_igorek_sine_exam_33</text>
+                <next>80</next>
+            </phrase>
+            <phrase id="40">
+                <text>st_zat_igorek_sine_exam_40</text>
+                <give_info>zat_polytech_sine_q3_passed</give_info>
+                <action>dialogs_polytech.sine_loot_3</action>
+                <next>41</next>
+                <next>43</next>
+                <next>42</next>
+                <next>44</next>
+            </phrase>
+            <phrase id="41">
+                <text>st_zat_igorek_sine_exam_41</text>
+                <next>83</next>
+            </phrase>
+            <phrase id="42">
+                <text>st_zat_igorek_sine_exam_42</text>
+                <next>80</next>
+            </phrase>
+            <phrase id="43">
+                <text>st_zat_igorek_sine_exam_43</text>
+                <next>50</next>
+            </phrase>
+            <phrase id="44">
+                <text>st_zat_igorek_sine_exam_44</text>
+                <next>80</next>
+            </phrase>
+            <phrase id="50">
+                <text>st_zat_igorek_sine_exam_50</text>
+                <give_info>zat_polytech_sine_exam_passed</give_info>
+                <action>dialogs_polytech.sine_loot_4</action>
+            </phrase>
+            <phrase id="80">
+                <text>st_zat_igorek_sine_exam_80</text>
+                <give_info>zat_polytech_sine_exam_failed</give_info>
+            </phrase>
+            <phrase id="82">
+                <text>st_zat_igorek_sine_exam_82</text>
+                <give_info>zat_polytech_sine_exam_failed</give_info>
+            </phrase>
+            <phrase id="83">
+                <text>st_zat_igorek_sine_exam_83</text>
+                <give_info>zat_polytech_sine_exam_failed</give_info>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="zat_igorek_sine_wait">
+        <has_info>zat_polytech_sine_note3_found</has_info>
+        <dont_has_info>zat_polytech_sine_exam_passed</dont_has_info>
+        <precondition>dialogs_polytech.sine_igorek_cannot_exam</precondition>
+        <phrase_list>
+            <phrase id="0">
+                <text>st_zat_igorek_sine_wait_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>st_zat_igorek_sine_wait_1</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="zat_igorek_sine_after">
+        <has_info>zat_polytech_sine_exam_passed</has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>st_zat_igorek_sine_after_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>st_zat_igorek_sine_after_1</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
 </game_dialogs>
