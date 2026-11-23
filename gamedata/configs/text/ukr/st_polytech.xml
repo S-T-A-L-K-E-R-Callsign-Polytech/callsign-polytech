@@ -378,4 +378,28 @@
     <string id="st_zat_sine_armlet_bio">
         <text>Хто він і звідки, ніхто достеменно не знає. Ходить у чорному світшоті з білим полум'ям і стріляє без попередження.</text>
     </string>
+    <string id="st_zat_sine_note_1_name">
+        <text>Конспект Ігорька: серветка</text>
+    </string>
+    <string id="st_zat_sine_note_1_desc">
+        <text>Серветка з «Фори». Ігорек намалював на ній коло і написав кілька рядків. Її можна роздивитися.</text>
+    </string>
+    <string id="st_zat_sine_note_2_name">
+        <text>Конспект Ігорька: аркуш із зошита</text>
+    </string>
+    <string id="st_zat_sine_note_2_desc">
+        <text>Аркуш у клітинку, вирваний із зошита. Почерк Ігорька. Його можна роздивитися.</text>
+    </string>
+    <string id="st_zat_sine_note_3_name">
+        <text>Конспект Ігорька: останній аркуш</text>
+    </string>
+    <string id="st_zat_sine_note_3_desc">
+        <text>Ще один аркуш із зошита. Почерк Ігорька. Його можна роздивитися.</text>
+    </string>
+    <string id="st_wpn_ak74_tor168">
+        <text>ТОР-168</text>
+    </string>
+    <string id="st_wpn_ak74_tor168_descr">
+        <text>Автомат Ігорька на базі АК-74. Доглянутий і добре пристріляний: видно, що господар знається на зброї.\nТочніший за звичайний АК-74, менше відводить під час стрільби чергами і повільніше зношується.</text>
+    </string>
 </string_table>

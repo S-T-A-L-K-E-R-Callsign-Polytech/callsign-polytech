@@ -378,4 +378,28 @@
     <string id="st_zat_sine_armlet_bio">
         <text>Nobody really knows who he is or where he came from. Wears a black sweatshirt with white flames and shoots without warning.</text>
     </string>
+    <string id="st_zat_sine_note_1_name">
+        <text>Igorek's notes: napkin</text>
+    </string>
+    <string id="st_zat_sine_note_1_desc">
+        <text>A napkin from "Fora". Igorek drew a circle on it and wrote a few lines. You can examine it.</text>
+    </string>
+    <string id="st_zat_sine_note_2_name">
+        <text>Igorek's notes: notebook page</text>
+    </string>
+    <string id="st_zat_sine_note_2_desc">
+        <text>A squared page torn out of a notebook. Igorek's handwriting. You can examine it.</text>
+    </string>
+    <string id="st_zat_sine_note_3_name">
+        <text>Igorek's notes: last page</text>
+    </string>
+    <string id="st_zat_sine_note_3_desc">
+        <text>Another notebook page. Igorek's handwriting. You can examine it.</text>
+    </string>
+    <string id="st_wpn_ak74_tor168">
+        <text>TOR-168</text>
+    </string>
+    <string id="st_wpn_ak74_tor168_descr">
+        <text>Igorek's AK-74 based rifle. Well kept and carefully zeroed: its owner clearly knows his weapons.\nMore accurate than a regular AK-74, has less recoil in bursts and wears out slower.</text>
+    </string>
 </string_table>

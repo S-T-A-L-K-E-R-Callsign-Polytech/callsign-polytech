@@ -378,4 +378,28 @@
     <string id="st_zat_sine_armlet_bio">
         <text>Кто он и откуда, никто толком не знает. Ходит в чёрном свитшоте с белым пламенем и стреляет без предупреждения.</text>
     </string>
+    <string id="st_zat_sine_note_1_name">
+        <text>Конспект Игорька: салфетка</text>
+    </string>
+    <string id="st_zat_sine_note_1_desc">
+        <text>Салфетка из «Форы». Игорек нарисовал на ней круг и написал несколько строк. Её можно рассмотреть.</text>
+    </string>
+    <string id="st_zat_sine_note_2_name">
+        <text>Конспект Игорька: лист из тетради</text>
+    </string>
+    <string id="st_zat_sine_note_2_desc">
+        <text>Лист в клетку, вырванный из тетради. Почерк Игорька. Его можно рассмотреть.</text>
+    </string>
+    <string id="st_zat_sine_note_3_name">
+        <text>Конспект Игорька: последний лист</text>
+    </string>
+    <string id="st_zat_sine_note_3_desc">
+        <text>Ещё один лист из тетради. Почерк Игорька. Его можно рассмотреть.</text>
+    </string>
+    <string id="st_wpn_ak74_tor168">
+        <text>ТОР-168</text>
+    </string>
+    <string id="st_wpn_ak74_tor168_descr">
+        <text>Автомат Игорька на базе АК-74. Ухоженный и хорошо пристрелянный: видно, что хозяин знает толк в оружии.\nТочнее обычного АК-74, меньше уводит при стрельбе очередями и медленнее изнашивается.</text>
+    </string>
 </string_table>
