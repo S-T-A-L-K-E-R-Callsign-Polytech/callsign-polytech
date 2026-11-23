@@ -378,11 +378,23 @@
     <string id="st_zat_sine_armlet_bio">
         <text>Хто він і звідки, ніхто достеменно не знає. Ходить у чорному світшоті з білим полум'ям і стріляє без попередження.</text>
     </string>
+    <string id="st_polytech_examine">
+        <text>Роздивитися</text>
+    </string>
+    <string id="st_polytech_note_close">
+        <text>Закрити</text>
+    </string>
     <string id="st_zat_sine_note_1_name">
         <text>Конспект Ігорька: серветка</text>
     </string>
     <string id="st_zat_sine_note_1_desc">
         <text>Серветка з «Фори». Ігорек намалював на ній коло і написав кілька рядків. Її можна роздивитися.</text>
+    </string>
+    <string id="st_zat_sine_note_1_text">
+        <text>Після неділі знову понеділок. У тижня немає кінців, отже, це не відрізок.\nКути ростуть проти годинникової, як у школі.\nНаступний аркуш — там, де заправляли машини, яких тут давно немає.</text>
+    </string>
+    <string id="st_zat_sine_note_1_image">
+        <text>ui\polytech\zat_sine_note_1_ukr</text>
     </string>
     <string id="st_zat_sine_note_2_name">
         <text>Конспект Ігорька: аркуш із зошита</text>
@@ -390,11 +402,23 @@
     <string id="st_zat_sine_note_2_desc">
         <text>Аркуш у клітинку, вирваний із зошита. Почерк Ігорька. Його можна роздивитися.</text>
     </string>
+    <string id="st_zat_sine_note_2_text">
+        <text>Аркуш 2\nКоло — 360°, днів — 7, крок — близько 51°.\nПн 0°, Вт 51°, Ср 103°, Чт 154°, Пт 206°, Сб 257°, Нд 309°.\nСинус — висота точки над горизонталлю: вище — плюс, на ній — нуль, нижче — мінус. Найбільший, одиниця, — на 90°.\nДоба — теж коло: 24 години — 360°, північ — 0°, година — 15°.\nАркуш 3 — на згорілому хуторі. Там засів Скажений Армлет.</text>
+    </string>
+    <string id="st_zat_sine_note_2_image">
+        <text>ui\polytech\zat_sine_note_2_ukr</text>
+    </string>
     <string id="st_zat_sine_note_3_name">
         <text>Конспект Ігорька: останній аркуш</text>
     </string>
     <string id="st_zat_sine_note_3_desc">
         <text>Ще один аркуш із зошита. Почерк Ігорька. Його можна роздивитися.</text>
+    </string>
+    <string id="st_zat_sine_note_3_text">
+        <text>Аркуш 3\nЩоб знайти мене, ти маєш прийти на «Скадовськ» у\nsin(день тижня) = -0.433883739117558\nі cos(часу) = 0.7071067811865474.\n— І.</text>
+    </string>
+    <string id="st_zat_sine_note_3_image">
+        <text>ui\polytech\zat_sine_note_3_ukr</text>
     </string>
     <string id="st_wpn_ak74_tor168">
         <text>ТОР-168</text>

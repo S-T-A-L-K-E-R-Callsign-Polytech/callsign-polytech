@@ -378,11 +378,23 @@
     <string id="st_zat_sine_armlet_bio">
         <text>Nobody really knows who he is or where he came from. Wears a black sweatshirt with white flames and shoots without warning.</text>
     </string>
+    <string id="st_polytech_examine">
+        <text>Examine</text>
+    </string>
+    <string id="st_polytech_note_close">
+        <text>Close</text>
+    </string>
     <string id="st_zat_sine_note_1_name">
         <text>Igorek's notes: napkin</text>
     </string>
     <string id="st_zat_sine_note_1_desc">
         <text>A napkin from "Fora". Igorek drew a circle on it and wrote a few lines. You can examine it.</text>
+    </string>
+    <string id="st_zat_sine_note_1_text">
+        <text>After Sunday comes Monday again. A week has no ends, so it is not a segment.\nAngles grow counter-clockwise, like at school.\nThe next page is where they fuelled cars that have long been gone from here.</text>
+    </string>
+    <string id="st_zat_sine_note_1_image">
+        <text>ui\polytech\zat_sine_note_1_eng</text>
     </string>
     <string id="st_zat_sine_note_2_name">
         <text>Igorek's notes: notebook page</text>
@@ -390,11 +402,23 @@
     <string id="st_zat_sine_note_2_desc">
         <text>A squared page torn out of a notebook. Igorek's handwriting. You can examine it.</text>
     </string>
+    <string id="st_zat_sine_note_2_text">
+        <text>Page 2\nCircle: 360°. Days: 7. Step: about 51°.\nMon 0°, Tue 51°, Wed 103°, Thu 154°, Fri 206°, Sat 257°, Sun 309°.\nThe sine is the height of the point above the horizontal line: above is plus, on it is zero, below is minus. The largest, one, is at 90°.\nA day is a circle too: 24 hours = 360°, midnight is 0°, an hour is 15°.\nPage 3 is at the burned farm. Mad Armlet holds out there.</text>
+    </string>
+    <string id="st_zat_sine_note_2_image">
+        <text>ui\polytech\zat_sine_note_2_eng</text>
+    </string>
     <string id="st_zat_sine_note_3_name">
         <text>Igorek's notes: last page</text>
     </string>
     <string id="st_zat_sine_note_3_desc">
         <text>Another notebook page. Igorek's handwriting. You can examine it.</text>
+    </string>
+    <string id="st_zat_sine_note_3_text">
+        <text>Page 3\nTo find me, come to the Skadovsk at\nsin(day of the week) = -0.433883739117558\nand cos(time) = 0.7071067811865474.\n— I.</text>
+    </string>
+    <string id="st_zat_sine_note_3_image">
+        <text>ui\polytech\zat_sine_note_3_eng</text>
     </string>
     <string id="st_wpn_ak74_tor168">
         <text>TOR-168</text>

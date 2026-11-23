@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<!-- Igorek's note opened with "Examine" in the inventory (scripts\ui_polytech_note.script) -->
+<w>
+    <dimmer x="0" y="0" width="1024" height="768" stretch="1">
+        <texture>ui\polytech\ui_polytech_shade</texture>
+    </dimmer>
+    <!-- The texture is set by the script; the pictures are 3:4 -->
+    <page x="251" y="12" width="522" height="696" stretch="1"/>
+    <btn_close x="448" y="726" width="127" height="28" check_mode="0">
+        <text font="letterica18">st_polytech_note_close</text>
+        <texture>ui_inGame2_Mp_bigbuttone</texture>
+    </btn_close>
+</w>

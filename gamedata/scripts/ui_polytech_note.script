@@ -1,0 +1,73 @@
+-- "Examine" for Igorek's notes in the "Sine of Monday" quest.
+--
+-- The note sections in configs/misc/quest_items.ltx set use1_functor and
+-- use1_action_functor, so the engine adds one more line to the inventory context
+-- menu (menu_text) and calls menu_action when it is clicked. The window shows the
+-- note as a picture. The picture is taken from the string table
+-- (st_<section>_image), so every language has its own texture; the text drawn on
+-- them is kept in the st_<section>_text strings.
+
+local note_control = nil
+
+class "note_wnd" (CUIScriptWnd)
+
+function note_wnd:__init() super()
+    self:SetWndRect(Frect():set(0, 0, 1024, 768))
+
+    local xml = CScriptXmlInit()
+    xml:ParseFile("ui_polytech_note.xml")
+    xml:InitStatic("dimmer", self)
+    self.page = xml:InitStatic("page", self)
+    self.btn_close = xml:Init3tButton("btn_close", self)
+    self:Register(self.btn_close, "btn_close")
+    self:AddCallback("btn_close", ui_events.BUTTON_CLICKED, self.close, self)
+
+    -- The UI is laid out for 4:3 and stretched to the screen, so narrow the page
+    -- and the button on wider screens to keep their proportions.
+    local k = (1024 / 768) / (device().width / device().height)
+    for _, wnd in ipairs({self.page, self.btn_close}) do
+        local w = wnd:GetWidth() * k
+        wnd:SetWndSize(vector2():set(w, wnd:GetHeight()))
+        wnd:SetWndPos(vector2():set((1024 - w) / 2, wnd:GetWndPos().y))
+    end
+end
+
+function note_wnd:show(section)
+    self.page:InitTexture(game.translate_string("st_" .. section .. "_image"))
+    self.page:SetStretchTexture(true)
+    if not self:IsShown() then
+        self:ShowDialog(true)
+    end
+end
+
+function note_wnd:close()
+    self:HideDialog()
+end
+
+function note_wnd:OnKeyboard(dik, keyboard_action)
+    if CUIScriptWnd.OnKeyboard(self, dik, keyboard_action) then
+        return true
+    end
+    if keyboard_action == ui_events.WINDOW_KEY_PRESSED then
+        local bind = dik_to_bind(dik)
+        if bind == key_bindings.kQUIT or bind == key_bindings.kUSE or bind == key_bindings.kINVENTORY then
+            self:close()
+            return true
+        end
+    end
+    return false
+end
+
+-- Text of the context menu line (a string table id).
+function menu_text(item)
+    return "st_polytech_examine"
+end
+
+-- Opens the note. Returns false so that the engine does not try to "use" the item.
+function menu_action(item)
+    if note_control == nil then
+        note_control = note_wnd()
+    end
+    note_control:show(item:section())
+    return false
+end
