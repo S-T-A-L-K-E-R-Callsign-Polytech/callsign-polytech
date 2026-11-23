@@ -402,4 +402,28 @@
     <string id="st_wpn_ak74_tor168_descr">
         <text>Автомат Ігорька на базі АК-74. Доглянутий і добре пристріляний: видно, що господар знається на зброї.\nТочніший за звичайний АК-74, менше відводить під час стрільби чергами і повільніше зношується.</text>
     </string>
+    <string id="st_zat_polytech_sine_notes_name">
+        <text>Конспекти Ігорька</text>
+    </string>
+    <string id="st_zat_polytech_sine_note1_text">
+        <text>Політех розповів про Ігорька і синус понеділка. Перший конспект Ігорька, за словами Фурки, захований біля портових кранів.</text>
+    </string>
+    <string id="st_zat_polytech_sine_note2_text">
+        <text>На серветці Ігорек написав, що наступний аркуш там, «де заправляли машини, яких тут давно немає».</text>
+    </string>
+    <string id="st_zat_polytech_sine_note3_text">
+        <text>У другому аркуші Ігорек пише: третій аркуш на згорілому хуторі. Там засів Скажений Армлет.</text>
+    </string>
+    <string id="st_zat_polytech_sine_igorek_name">
+        <text>Знайти Ігорька</text>
+    </string>
+    <string id="st_zat_polytech_sine_igorek_text">
+        <text>Ігорек чекає на «Скадовську», біля стійки Бороди. День і годину він записав в останньому аркуші через синус і косинус. Він спитає, що таке тиждень, де на ньому понеділок, чому дорівнює його синус і в якого дня синус найбільший. Відповіді — в конспектах.</text>
+    </string>
+    <string id="st_zat_polytech_sine_return_name">
+        <text>Розповісти Політеху</text>
+    </string>
+    <string id="st_zat_polytech_sine_return_text">
+        <text>Ігорек прийняв іспит. Політех чекає на відповідь: як Ігорек порахував синус понеділка?</text>
+    </string>
 </string_table>

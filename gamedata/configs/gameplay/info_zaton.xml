@@ -571,4 +571,22 @@
 	<info_portion id="zat_fpga_boxes_spawned"></info_portion>
 	<info_portion id="zat_fpga_notes_spawned"></info_portion>
 	<info_portion id="zat_fpga_scanner_spawned"></info_portion>
+	<info_portion id="zat_polytech_sine_started"></info_portion>
+	<info_portion id="zat_polytech_sine_note1_found"></info_portion>
+	<info_portion id="zat_polytech_sine_note2_found"></info_portion>
+	<info_portion id="zat_polytech_sine_note3_found"></info_portion>
+	<info_portion id="zat_polytech_sine_exam_failed"></info_portion>
+	<info_portion id="zat_polytech_sine_igorek_met"></info_portion>
+	<info_portion id="zat_polytech_sine_q1_passed"></info_portion>
+	<info_portion id="zat_polytech_sine_q2_passed"></info_portion>
+	<info_portion id="zat_polytech_sine_q3_passed"></info_portion>
+	<info_portion id="zat_polytech_sine_exam_passed"></info_portion>
+	<info_portion id="zat_polytech_sine_done"></info_portion>
+	<info_portion id="zat_sine_stash1_spawned"></info_portion>
+	<info_portion id="zat_sine_stash2_spawned"></info_portion>
+	<info_portion id="zat_sine_stash3_spawned"></info_portion>
+	<info_portion id="zat_sine_note1_spawned"></info_portion>
+	<info_portion id="zat_sine_note2_spawned"></info_portion>
+	<info_portion id="zat_sine_note3_spawned"></info_portion>
+	<info_portion id="zat_sine_armlet_spawned"></info_portion>
 </game_information_portions>

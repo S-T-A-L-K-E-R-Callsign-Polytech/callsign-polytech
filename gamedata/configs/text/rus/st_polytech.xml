@@ -402,4 +402,28 @@
     <string id="st_wpn_ak74_tor168_descr">
         <text>Автомат Игорька на базе АК-74. Ухоженный и хорошо пристрелянный: видно, что хозяин знает толк в оружии.\nТочнее обычного АК-74, меньше уводит при стрельбе очередями и медленнее изнашивается.</text>
     </string>
+    <string id="st_zat_polytech_sine_notes_name">
+        <text>Конспекты Игорька</text>
+    </string>
+    <string id="st_zat_polytech_sine_note1_text">
+        <text>Политех рассказал про Игорька и синус понедельника. Первый конспект Игорька, по словам Фурки, спрятан у портовых кранов.</text>
+    </string>
+    <string id="st_zat_polytech_sine_note2_text">
+        <text>На салфетке Игорек написал, что следующий лист там, «где заправляли машины, которых здесь давно нет».</text>
+    </string>
+    <string id="st_zat_polytech_sine_note3_text">
+        <text>Во втором листе Игорек пишет: третий лист на сгоревшем хуторе. Там засел Бешеный Армлет.</text>
+    </string>
+    <string id="st_zat_polytech_sine_igorek_name">
+        <text>Найти Игорька</text>
+    </string>
+    <string id="st_zat_polytech_sine_igorek_text">
+        <text>Игорек ждёт на «Скадовске», у стойки Бороды. День и час он записал в последнем листе через синус и косинус. Он спросит, что такое неделя, где на ней понедельник, чему равен его синус и у какого дня синус самый большой. Ответы — в конспектах.</text>
+    </string>
+    <string id="st_zat_polytech_sine_return_name">
+        <text>Рассказать Политеху</text>
+    </string>
+    <string id="st_zat_polytech_sine_return_text">
+        <text>Игорек принял экзамен. Политех ждёт ответа: как Игорек посчитал синус понедельника?</text>
+    </string>
 </string_table>
