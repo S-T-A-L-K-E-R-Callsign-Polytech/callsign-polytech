@@ -73,6 +73,8 @@ end
 
 function spawn_entities()
     register_logic_functions()
+    -- the PDA clock shows the day of the week (engine extension, see README)
+    get_console():execute("g_show_week_day 1")
     spawn_once("zat_polytech_spawned", "zat_polytech", 128.43, -7.34, 188.71, 1186463, 298)
     spawn_once("zat_faraday_spawned_v2", "zat_faraday", 472.45, 37.12, 32.91, 1732117, 293)
     spawn_once("zat_max_spawned", "zat_max", -0.539003, -0.506748, 33.662804, 942595, 19)
@@ -105,4 +107,91 @@ function spawn_fpga_scene()
     spawn_once("zat_fpga_scanner_spawned","zat_fpga_scanner",     -336.745160, 40.061741, -389.126544, 277246, 29)
     spawn_once("zat_fpga_polter_spawned", "zat_fpga_poltergeist", -337.945160, 40.061741, -388.026544, 277246, 29)
     spawn_polter_boxes()
+end
+
+---------------------------------------------------------------------------
+-- Sine of Monday
+---------------------------------------------------------------------------
+
+-- x, y, z, level vertex, game vertex
+local SINE_STASHES = {
+    {212.90, 6.80, 14.09, 1326242, 55},    -- port cranes (zat_b52)
+    {-166.93, 19.64, -190.83, 607860, 57}, -- gas station, under the canopy (zat_sim_25)
+    {-48.56, 24.13, 303.58, 849337, 60},   -- burned farm (zat_b20)
+}
+local SINE_ARMLET = {-50.40, 24.07, 301.00, 845046, 60}
+local SINE_IGOREK = {126.70, -7.32, 179.90, 1184077, 297} -- Skadovsk, at Boroda's counter
+
+-- Igorek comes to the bar on Fridays at 21:00, two hours before "Fora" closes.
+local IGOREK_DAY  = 4 -- 0 is Monday
+local IGOREK_FROM = 21
+local IGOREK_TO   = 23
+
+-- A backpack the player can search, with Igorek's note inside.
+local function spawn_sine_stash(n)
+    local info = "zat_sine_stash" .. n .. "_spawned"
+    if db.actor:has_info(info) then
+        return
+    end
+    local p = SINE_STASHES[n]
+    local pos = vector():set(p[1], p[2], p[3])
+    local box = alife():create("zat_sine_stash", pos, p[4], p[5])
+    alife():create("zat_sine_note_" .. n, pos, p[4], p[5], box.id)
+    db.actor:give_info_portion(info)
+end
+
+function sine_start()
+    spawn_sine_stash(1)
+    task_manager.get_task_manager():give_task("zat_polytech_sine")
+end
+
+function sine_on_item_take(item)
+    local n = tonumber(string.match(item:section(), "^zat_sine_note_(%d)$"))
+    if not n or not db.actor:has_info("zat_polytech_sine_started") then
+        return
+    end
+    db.actor:give_info_portion("zat_polytech_sine_note" .. n .. "_found")
+    if n < 3 then
+        spawn_sine_stash(n + 1)
+    end
+    if n == 2 then
+        local p = SINE_ARMLET
+        spawn_once("zat_sine_armlet_spawned", "zat_sine_armlet", p[1], p[2], p[3], p[4], p[5])
+    end
+end
+
+function sine_igorek_on_duty()
+    local t = game.get_game_time()
+    local y, mo, d, h, mi, s, ms = t:get(0, 0, 0, 0, 0, 0, 0)
+    return t:dayOfWeek() == IGOREK_DAY and h >= IGOREK_FROM and h < IGOREK_TO
+end
+
+-- Brings Igorek to the bar and takes him away. He leaves only when the actor
+-- is not around, so he never disappears in front of the player.
+local next_update = 0
+function update()
+    if time_global() < next_update then
+        return
+    end
+    next_update = time_global() + 1000
+    local actor = db.actor
+    if not actor:has_info("zat_polytech_sine_note3_found") then
+        return
+    end
+    local on_duty = sine_igorek_on_duty()
+    if not on_duty and actor:has_info("zat_polytech_sine_exam_failed") then
+        actor:disable_info_portion("zat_polytech_sine_exam_failed")
+    end
+    local wanted = on_duty and not actor:has_info("zat_polytech_sine_exam_passed")
+    local id = get_story_object_id("zat_igorek")
+    if wanted and not id then
+        local p = SINE_IGOREK
+        alife():create("zat_igorek", vector():set(p[1], p[2], p[3]), p[4], p[5])
+    elseif id and not wanted then
+        local npc = level.object_by_id(id)
+        if npc == nil or npc:position():distance_to(actor:position()) > 20 then
+            alife():release(alife():object(id), true)
+            story_objects.get_story_objects_registry():unregister_by_story_id("zat_igorek")
+        end
+    end
 end

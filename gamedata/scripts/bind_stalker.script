@@ -173,6 +173,7 @@ function actor_binder:on_item_take (obj)
 		and not db.actor:has_info("zat_polytech_fpga_board_found") then
 		db.actor:give_info_portion("zat_polytech_fpga_board_found")
 	end
+	polytech.sine_on_item_take(obj)
 	if isArtefact(obj) then
 		local anomal_zone = bind_anomaly_zone.parent_zones_by_artefact_id[obj:id()]
 		if anomal_zone ~= nil then
@@ -387,6 +388,7 @@ function actor_binder:update(delta)
 		self.loaded = true
 	end
 	treasure_manager.get_treasure_manager():update()
+	polytech.update()
 
 	if not(primary_objects_filled) then
 		pda.fill_primary_objects()
