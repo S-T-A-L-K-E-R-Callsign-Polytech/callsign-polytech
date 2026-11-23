@@ -2453,4 +2453,48 @@
 		<actor_dialog>actor_break_dialog</actor_dialog>
 	</specific_character>
 
+	<specific_character id="zat_igorek" team_default="1">
+		<name>st_zat_igorek_name</name>
+		<bio>st_zat_igorek_bio</bio>
+		<icon>ui_inGame2_neutral_2</icon>
+		<visual>actors\stalker_neutral\stalker_neutral_2_face_4</visual>
+		<snd_config>characters_voice\human_02\stalker\</snd_config>
+		<class>zat_igorek</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>70</rank>
+		<reputation>0</reputation>
+		<money min="207" max="207" infinitive="0" />
+		<supplies>
+			[spawn] \n
+			wpn_pm \n
+			ammo_9x18_fmj = 1 \n
+#include "gameplay\character_food.xml"
+		</supplies>
+#include "gameplay\character_criticals_3.xml"
+		<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+
+	<specific_character id="zat_sine_armlet" team_default="1">
+		<name>st_zat_sine_armlet_name</name>
+		<bio>st_zat_sine_armlet_bio</bio>
+		<icon>ui_inGame2_neutral_1</icon>
+		<visual>actors\stalker_neutral\stalker_armlet</visual>
+		<snd_config>characters_voice\human_03\bandit\</snd_config>
+		<class>zat_sine_armlet</class>
+		<community>bandit</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>70</rank>
+		<reputation>-500</reputation>
+		<money min="300" max="600" infinitive="0" />
+		<supplies>
+			[spawn] \n
+			wpn_bm16 \n
+			ammo_12x70_buck = 3 \n
+			vodka = 1 \n
+			energy_drink = 1 \n
+		</supplies>
+#include "gameplay\character_criticals_3.xml"
+	</specific_character>
+
 </xml>

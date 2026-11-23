@@ -366,4 +366,16 @@
     <string id="st_zat_max_fpga_after_1">
         <text>Третья глава готова. Третья глава никогда не бывает готова. Но она готова.</text>
     </string>
+    <string id="st_zat_igorek_name">
+        <text>Игорек</text>
+    </string>
+    <string id="st_zat_igorek_bio">
+        <text>Легенда восьмой общаги. Жил там дольше всех и собирал подвал. Говорят, посчитал синус понедельника.</text>
+    </string>
+    <string id="st_zat_sine_armlet_name">
+        <text>Бешеный Армлет</text>
+    </string>
+    <string id="st_zat_sine_armlet_bio">
+        <text>Кто он и откуда, никто толком не знает. Ходит в чёрном свитшоте с белым пламенем и стреляет без предупреждения.</text>
+    </string>
 </string_table>

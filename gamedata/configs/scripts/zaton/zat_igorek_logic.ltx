@@ -1,0 +1,30 @@
+[logic]
+active = remark@bar
+
+[smart_terrains]
+none = true
+
+[remark@bar]
+anim                             = wait
+target                           = story | actor
+meet                             = meet
+invulnerable                     = true
+combat_ignore_cond               = true
+combat_ignore_keep_when_attacked = true
+gather_items_enabled             = false
+help_wounded_enabled             = false
+corpse_detection_enabled         = false
+
+[meet]
+close_distance  = 3
+close_anim      = nil
+close_snd_hello = nil
+close_snd_bye   = nil
+close_victim    = actor
+far_distance    = 0
+far_anim        = nil
+far_victim      = nil
+use             = true
+allow_break     = false
+trade_enable    = false
+meet_on_talking = false

@@ -1,0 +1,22 @@
+[logic]
+active = remark@wait
+
+[smart_terrains]
+none = true
+
+[remark@wait]
+anim                     = guard_na
+target                   = nil
+meet                     = no_meet
+on_actor_dist_le_nvis    = 30 | remark@fight %=actor_enemy%
+gather_items_enabled     = false
+help_wounded_enabled     = false
+corpse_detection_enabled = false
+
+[remark@fight]
+anim                     = threat_na
+target                   = story | actor
+meet                     = no_meet
+gather_items_enabled     = false
+help_wounded_enabled     = false
+corpse_detection_enabled = false
