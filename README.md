@@ -88,7 +88,14 @@ change the way the player prepares for trips into the Zone.
 
 ## Experience Information
 
-TBD
+| | |
+| :-- | :-- |
+| Genre | Story side-quest modification for a first-person shooter with RPG elements |
+| Platform | PC, OpenXRay engine (Linux, Windows) |
+| Base game | S.T.A.L.K.E.R.: Call of Pripyat 1.6.02 |
+| Mode | Single player |
+| Languages | Ukrainian, English |
+| Playtime | About 1-2 hours |
 
 ---
 
@@ -96,15 +103,26 @@ TBD
 
 ### Gameplay Objectives
 
-TBD
+Help Polytech in three quests: get Rokovoy's router back, recover Max's
+FPGA board and find out how Igorek computed the "sine of Monday".
 
 ### Gameplay Story
 
-TBD
+1. **Rokovoy's router.** Faraday is hiding with the router in a hut at the
+   Forestry. The player can take it by force or escort Faraday to the
+   Skadovsk through a bandit ambush.
+2. **FPGA board.** Max, a FICE student, lost his board among the Electras
+   in the Iron Forest. If the player carries it through an anomaly, it
+   burns, and Polytech gives Max a cheap one instead.
+3. **Sine of Monday.** Polytech remembers a night in room 207 of dorm 8
+   when Igorek "computed the sine of Monday". The player collects Igorek's
+   three notes (the last one is guarded by Mad Armlet), works out the day
+   and the hour, and passes Igorek's exam at the Skadovsk bar.
 
 ### Gameplay Flow
 
-TBD
+Talk to Polytech on the Skadovsk → take the quest → go into the Zone →
+return to Polytech for the reward → the next quest unlocks.
 
 ---
 
@@ -112,68 +130,98 @@ TBD
 
 ### User Controls
 
-TBD
+Standard Call of Pripyat controls. New: right-click a note in the
+inventory and choose "Examine" to read it as a handwritten page.
 
 ### Progression
 
-TBD
+The quests are taken one after another. Rewards are money, consumables,
+an artifact and a unique rifle, TOR-168.
 
 ### Core Features
 
-TBD
+- Branching quests: the router can be taken from Faraday by force or by
+  escorting him to the Skadovsk; the FPGA board can arrive intact or burnt.
+- Day of the week in game time (engine extension): the PDA clock shows
+  "Fri 21:00", and Igorek comes to the bar only on Fridays from 21:00
+  to 23:00.
+- An exam in dialogue: a share of loot for every right answer, and after
+  a mistake the exam goes on next Friday.
 
 ---
 
 ## Design Style
 
-TBD
+The tone of the original game is kept; the new characters bring in
+student life of Kyiv Polytechnic.
 
 ### Game Locations
 
-TBD
+All quests take place on Zaton: the Skadovsk, the Forestry, the Iron
+Forest, the Shevchenko, the port cranes, the old gas station and the
+burned farm.
 
 ### Character Designs
 
-TBD
+- **Polytech** - stalker-engineer, the quest giver.
+- **Faraday** - stalker hiding with Rokovoy's router.
+- **Max** - FICE student on the Shevchenko.
+- **Igorek** - legend of dorm 8.
+- **Mad Armlet** - bandit in a black sweatshirt with white flames (new texture).
 
 ### Concept Art and Notes
 
-TBD
+Not prepared.
 
 ### Reference Images
 
-TBD
+Not used.
 
 ### Bibliography
 
-TBD
+- [OpenXRay](https://github.com/OpenXRay/xray-16)
+- Scripts and configs of the original Call of Pripyat
 
 ---
 
 ## Monetization Strategy
 
-TBD
+None. A free non-commercial fan modification.
 
 ---
 
 ## Risk Analysis
 
-TBD
+| Risk | Mitigation |
+| :-- | :-- |
+| The final quest needs an engine change | The change is small and kept in a separate engine branch (see [Requirements](#requirements)) |
+| Old saves may break | Start a new game with the modification |
+| Too much work for a student team | One quest per person, all on one location, reusing original game mechanics |
 
 ---
 
 ## The MVP
 
-TBD
+Polytech on the Skadovsk with three quests that can be played from start
+to finish in Ukrainian and English.
 
 ---
 
 ## Target Dates
 
-TBD
+| Date | Milestone |
+| :-- | :-- |
+| September 2026 | Game design document |
+| October 2026 | Polytech, the router and FPGA quests |
+| November 2026 | The "Sine of Monday" quest |
+| December 2026 | Submission |
 
 ---
 
 ## Credits and Additional Resources
 
-TBD
+- **Serhii Lytvynenko** - Polytech, the "Sine of Monday" quest, the engine extension
+- **Yana** - the Rokovoy's router quest
+- **Myroslava Saveniuk** - the FPGA board quest
+- GSC Game World - S.T.A.L.K.E.R.: Call of Pripyat
+- OpenXRay team - the engine
