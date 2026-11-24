@@ -492,18 +492,6 @@
     <string id="st_zat_polytech_sine_start_13">
         <text>Синуси почекають. Вони періодичні, повернуться.</text>
     </string>
-    <string id="st_zat_polytech_sine_hint_0">
-        <text>Підкажи, з якого боку братися за цей синус.</text>
-    </string>
-    <string id="st_zat_polytech_sine_hint_1">
-        <text>Тиждень закінчується — і що далі? Починається знову. Яка фігура так поводиться?</text>
-    </string>
-    <string id="st_zat_polytech_sine_hint_2">
-        <text>А синус тут до чого?</text>
-    </string>
-    <string id="st_zat_polytech_sine_hint_3">
-        <text>Синус буває в кута. Отже, у понеділка має бути кут. Згадай, звідки в школі відраховували кути.</text>
-    </string>
     <string id="st_zat_polytech_sine_where_0">
         <text>Де шукати Ігорька?</text>
     </string>

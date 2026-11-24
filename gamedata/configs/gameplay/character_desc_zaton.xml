@@ -2366,7 +2366,6 @@
 		<actor_dialog>zat_polytech_fpga_waiting</actor_dialog>
 		<actor_dialog>zat_polytech_fpga_after</actor_dialog>
 		<actor_dialog>zat_polytech_sine_start</actor_dialog>
-		<actor_dialog>zat_polytech_sine_hint</actor_dialog>
 		<actor_dialog>zat_polytech_sine_where</actor_dialog>
 		<actor_dialog>zat_polytech_sine_finish</actor_dialog>
 		<actor_dialog>actor_break_dialog</actor_dialog>

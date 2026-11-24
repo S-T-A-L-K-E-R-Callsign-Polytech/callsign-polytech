@@ -492,18 +492,6 @@
     <string id="st_zat_polytech_sine_start_13">
         <text>Sines can wait. They are periodic, they will come back.</text>
     </string>
-    <string id="st_zat_polytech_sine_hint_0">
-        <text>Any idea where to start with this sine?</text>
-    </string>
-    <string id="st_zat_polytech_sine_hint_1">
-        <text>A week ends, and then what? It starts again. What shape behaves like that?</text>
-    </string>
-    <string id="st_zat_polytech_sine_hint_2">
-        <text>And where does the sine come in?</text>
-    </string>
-    <string id="st_zat_polytech_sine_hint_3">
-        <text>A sine belongs to an angle. So Monday must have an angle. Remember where angles were measured from at school.</text>
-    </string>
     <string id="st_zat_polytech_sine_where_0">
         <text>Where do I look for Igorek?</text>
     </string>

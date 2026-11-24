@@ -492,18 +492,6 @@
     <string id="st_zat_polytech_sine_start_13">
         <text>Синусы подождут. Они периодические, вернутся.</text>
     </string>
-    <string id="st_zat_polytech_sine_hint_0">
-        <text>Подскажи, с какой стороны браться за этот синус.</text>
-    </string>
-    <string id="st_zat_polytech_sine_hint_1">
-        <text>Неделя кончается — и что дальше? Начинается заново. Какая фигура так себя ведёт?</text>
-    </string>
-    <string id="st_zat_polytech_sine_hint_2">
-        <text>А синус тут при чём?</text>
-    </string>
-    <string id="st_zat_polytech_sine_hint_3">
-        <text>Синус бывает у угла. Значит, у понедельника должен быть угол. Вспомни, откуда в школе отсчитывали углы.</text>
-    </string>
     <string id="st_zat_polytech_sine_where_0">
         <text>Где искать Игорька?</text>
     </string>
