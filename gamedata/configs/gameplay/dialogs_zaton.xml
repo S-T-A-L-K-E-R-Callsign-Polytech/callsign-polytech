@@ -7246,7 +7246,6 @@
                 <next>10</next>
                 <next>14</next>
                 <next>16</next>
-                <next>18</next>
                 <next>20</next>
                 <next>22</next>
             </phrase>
@@ -7259,7 +7258,6 @@
                 <next>10</next>
                 <next>14</next>
                 <next>16</next>
-                <next>18</next>
                 <next>20</next>
                 <next>22</next>
             </phrase>
@@ -7272,7 +7270,6 @@
                 <next>10</next>
                 <next>14</next>
                 <next>16</next>
-                <next>18</next>
                 <next>20</next>
                 <next>22</next>
             </phrase>
@@ -7286,21 +7283,6 @@
                 <next>10</next>
                 <next>14</next>
                 <next>16</next>
-                <next>18</next>
-                <next>20</next>
-                <next>22</next>
-            </phrase>
-            <phrase id="18">
-                <text>st_zat_polytech_router_start_18</text>
-                <has_info>zat_polytech_router_heard_faraday</has_info>
-                <next>19</next>
-            </phrase>
-            <phrase id="19">
-                <text>st_zat_polytech_router_start_19</text>
-                <next>10</next>
-                <next>14</next>
-                <next>16</next>
-                <next>18</next>
                 <next>20</next>
                 <next>22</next>
             </phrase>
@@ -7386,20 +7368,6 @@
                 <text>st_zat_faraday_router_meet_7</text>
                 <give_info>zat_polytech_router_force</give_info>
                 <give_info>zat_polytech_router_faraday_met</give_info>
-            </phrase>
-        </phrase_list>
-    </dialog>
-    <dialog id="zat_faraday_router_faks">
-        <has_info>zat_polytech_router_task_given</has_info>
-        <dont_has_info>zat_polytech_router_force</dont_has_info>
-        <has_info>zat_polytech_router_faraday_met</has_info>
-        <phrase_list>
-            <phrase id="0">
-                <text>st_zat_faraday_router_faks_0</text>
-                <next>1</next>
-            </phrase>
-            <phrase id="1">
-                <text>st_zat_faraday_router_faks_1</text>
             </phrase>
         </phrase_list>
     </dialog>

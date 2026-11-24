@@ -9,7 +9,7 @@ function router_give_task(first_speaker, second_speaker)
 end
 
 function actor_has_router(first_speaker, second_speaker)
-    return db.actor:object("zat_rokovoy_router") ~= nil
+    return db.actor:object("zat_lecturer_router") ~= nil
 end
 
 function faraday_alive(first_speaker, second_speaker)
@@ -21,11 +21,11 @@ function faraday_dead(first_speaker, second_speaker)
 end
 
 function router_transfer(first_speaker, second_speaker)
-    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "zat_rokovoy_router")
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "zat_lecturer_router")
 end
 
 function router_from_faraday(first_speaker, second_speaker)
-    dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "zat_rokovoy_router")
+    dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "zat_lecturer_router")
 end
 
 local function fpga_has(section)

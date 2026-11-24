@@ -12,17 +12,17 @@
     <string id="st_zat_faraday_bio">
         <text>A former KPI Telecom engineer who swapped his server room for a shack at the Forestry. Plans to start a business on anonymous data storage.</text>
     </string>
-    <string id="st_zat_rokovoy_router_name">
-        <text>Rokovoy's router</text>
+    <string id="st_zat_lecturer_router_name">
+        <text>The Lecturer's router</text>
     </string>
-    <string id="st_zat_rokovoy_router_desc">
-        <text>A router from the FICT lab that Rokovoy brought back from China. Whatever is in its firmware, there are plenty of people in the Zone who want to get their hands on a router like this.</text>
+    <string id="st_zat_lecturer_router_desc">
+        <text>A router from the FICT lab that our Lecturer brought back from China. Whatever is in its firmware, there are plenty of people in the Zone who want to get their hands on a router like this.</text>
     </string>
     <string id="st_zat_polytech_router_find_name">
         <text>Find Faraday</text>
     </string>
     <string id="st_zat_polytech_router_find_text">
-        <text>Polytech asked you to find Faraday, who is holding on to Rokovoy's router. He is hiding in a hut at the Forestry.</text>
+        <text>Polytech asked you to find Faraday, who is holding on to the Lecturer's router. He is hiding in a hut at the Forestry.</text>
     </string>
     <string id="st_zat_polytech_router_get_name">
         <text>Get the router from Faraday</text>
@@ -58,7 +58,7 @@
         <text>What router?</text>
     </string>
     <string id="st_zat_polytech_router_start_3">
-        <text>When I studied at FICT, I took the course on networks and Linux. Rokovoy taught it back then, and during labs he would sometimes take out a modified router he had brought back from his internship in China. Strange casing, and firmware nobody ever really figured out. They say the most hardcore Chinese programmers wrote it, and the Chinese firewall runs on hardware like that.</text>
+        <text>When I studied at FICT, I took the course on networks and Linux. Our Lecturer taught it back then, and during labs he would sometimes take out a modified router he had brought back from his internship in China. Strange casing, and firmware nobody ever really figured out. They say the most hardcore Chinese programmers wrote it, and the Chinese firewall runs on hardware like that.</text>
     </string>
     <string id="st_zat_polytech_router_start_10">
         <text>How did it end up in the Zone?</text>
@@ -76,13 +76,7 @@
         <text>And who has it now?</text>
     </string>
     <string id="st_zat_polytech_router_start_17">
-        <text>Last I heard, it settled with a loner called Faraday. Not much is known about him. They say he used to work at KPI Telecom, and now he's building his own closed network in the Zone, a darknet of sorts. He wants to keep the secret data of the factions and ordinary stalkers alike: a neutral, unreachable keeper of other people's secrets. Rumour has it even the FAKS archive sits on his servers. He's holed up in a hut at the Forestry. He doesn't like strangers and takes everyone for either a faction agent or a bounty hunter.</text>
-    </string>
-    <string id="st_zat_polytech_router_start_18">
-        <text>What's the FAKS archive?</text>
-    </string>
-    <string id="st_zat_polytech_router_start_19">
-        <text>Ha, that's a legend of its own. The FAKS archive is one of the greatest mysteries of KPI. Nobody really knows what's in it: the senior students of those years just smile and change the subject. But I'm sending you for the router, not the archive.</text>
+        <text>Last I heard, it settled with a loner called Faraday. Not much is known about him. They say he used to work at KPI Telecom, and now he's building his own closed network in the Zone, a darknet of sorts. He wants to keep the secret data of the factions and ordinary stalkers alike: a neutral, unreachable keeper of other people's secrets. He's holed up in a hut at the Forestry. He doesn't like strangers and takes everyone for either a faction agent or a bounty hunter.</text>
     </string>
     <string id="st_zat_polytech_router_start_20">
         <text>Fine, I'll find your Faraday.</text>
@@ -97,7 +91,7 @@
         <text>I understand.</text>
     </string>
     <string id="st_zat_polytech_router_return_0">
-        <text>I've brought Rokovoy's router.</text>
+        <text>I've brought the Lecturer's router.</text>
     </string>
     <string id="st_zat_polytech_router_return_1">
         <text>Faraday gave it up himself? They must have really pressed him if he decided to quit. Pity, the idea of a neutral vault was a beautiful one. But there's no such thing as neutral in the Zone: sooner or later they come for you anyway.</text>
@@ -106,19 +100,19 @@
         <text>So Faraday is gone... Not for me to judge you, the Zone is the Zone. But I'm sorry for the keeper of secrets: now all of them are gone with him.</text>
     </string>
     <string id="st_zat_polytech_router_return_5">
-        <text>And the FAKS archive?</text>
+        <text>Here's the router.</text>
     </string>
     <string id="st_zat_polytech_router_return_6">
-        <text>The FAKS archive can stay a secret. Some secrets should stay unrevealed. Hand over the router, and here's what I promised. Thank you, stalker.</text>
+        <text>Here's what I promised. Thank you, stalker.</text>
     </string>
     <string id="st_zat_faraday_router_meet_0">
         <text>Stop right there! One more step and I shoot. Who are you? What do you want?</text>
     </string>
     <string id="st_zat_faraday_router_meet_2">
-        <text>Polytech sent me. For Rokovoy's router.</text>
+        <text>Polytech sent me. For the Lecturer's router.</text>
     </string>
     <string id="st_zat_faraday_router_meet_3">
-        <text>Rokovoy's? I sat his networks exam too, passed on the third try... Alright, I believe you. Listen, since you're one of ours - I've got a deal for you. Bandits have been leaning on me. They want the router: someone told them Duty and Freedom would pay good money for it. They gave me time to think, they'll be back soon. I can't hold out here alone. Get me to the Skadovsk and the router's yours.</text>
+        <text>The Lecturer's? I sat his networks exam too, passed on the third try... Alright, I believe you. Listen, since you're one of ours - I've got a deal for you. Bandits have been leaning on me. They want the router: someone told them Duty and Freedom would pay good money for it. They gave me time to think, they'll be back soon. I can't hold out here alone. Get me to the Skadovsk and the router's yours.</text>
     </string>
     <string id="st_zat_faraday_router_meet_4">
         <text>Deal. Let's go.</text>
@@ -131,12 +125,6 @@
     </string>
     <string id="st_zat_faraday_router_meet_7">
         <text>Right, another one. Go on then.</text>
-    </string>
-    <string id="st_zat_faraday_router_faks_0">
-        <text>They say you've got the FAKS archive.</text>
-    </string>
-    <string id="st_zat_faraday_router_faks_1">
-        <text>People say all sorts of things. Even if I do, it's none of your business.</text>
     </string>
     <string id="st_zat_faraday_router_give_0">
         <text>That's it, we made it.</text>

@@ -2387,13 +2387,12 @@
 			[spawn] \n
 			wpn_mp5 \n
 			ammo_9x19_fmj = 2 \n
-			zat_rokovoy_router \n
+			zat_lecturer_router \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
 		</supplies>
 #include "gameplay\character_criticals_3.xml"
-		<actor_dialog>zat_faraday_router_faks</actor_dialog>
 		<actor_dialog>zat_faraday_router_give</actor_dialog>
 		<actor_dialog>actor_break_dialog</actor_dialog>
 	</specific_character>
@@ -2419,7 +2418,6 @@
 #include "gameplay\character_drugs.xml"
 		</supplies>
 #include "gameplay\character_criticals_3.xml"
-		<actor_dialog>zat_faraday_router_faks</actor_dialog>
 		<actor_dialog>actor_break_dialog</actor_dialog>
 	</specific_character>
 

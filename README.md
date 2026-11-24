@@ -109,12 +109,12 @@ change the way the player prepares for trips into the Zone.
 
 ### Gameplay Objectives
 
-Help Polytech in three quests: get Rokovoy's router back, recover Max's
+Help Polytech in three quests: get the Lecturer's router back, recover Max's
 FPGA board and find out how Igorek computed the "sine of Monday".
 
 ### Gameplay Story
 
-1. **Rokovoy's router.** Faraday is hiding with the router in a hut at the
+1. **The Lecturer's router.** Faraday is hiding with the router in a hut at the
    Forestry. The player can take it by force or escort Faraday to the
    Skadovsk through a bandit ambush.
 2. **FPGA board.** Max, a FICE student, lost his board among the Electras
@@ -170,7 +170,7 @@ burned farm.
 ### Character Designs
 
 - **Polytech** - stalker-engineer, the quest giver.
-- **Faraday** - stalker hiding with Rokovoy's router.
+- **Faraday** - stalker hiding with the Lecturer's router.
 - **Max** - FICE student on the Shevchenko.
 - **Igorek** - legend of dorm 8.
 - **Mad Armlet** - bandit in a black sweatshirt with white flames (new texture).
@@ -227,7 +227,7 @@ to finish in Ukrainian and English.
 ## Credits and Additional Resources
 
 - **Serhii Lytvynenko** - Polytech, the "Sine of Monday" quest, the engine extension
-- **Yana** - the Rokovoy's router quest
+- **Yana** - the Lecturer's router quest
 - **Myroslava Saveniuk** - the FPGA board quest
 - GSC Game World - S.T.A.L.K.E.R.: Call of Pripyat
 - OpenXRay team - the engine
