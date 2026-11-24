@@ -30,6 +30,12 @@ Game Design Document
 9. [Target Dates](#target-dates)
 10. [Credits and Additional Resources](#credits-and-additional-resources)
 
+> [!WARNING]
+> This modification works only with the project's fork of the OpenXRay engine:
+> [serrhiy/xray-16](https://github.com/serrhiy/xray-16), branch
+> [`callsign-polytech`](https://github.com/serrhiy/xray-16/tree/callsign-polytech).
+> The engine was modified for this project, and the final quest does not work without it.
+
 ---
 
 ## Experience Overview
